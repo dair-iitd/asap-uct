@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import os
+output = open("output.sailing_mutask20_43", "w")
+cmd = "./sailing  -f -a 0 -h 1 -s 0 100 random aot 1000 200 0.5 500"
+output.write("cmd=" + cmd + "\n")
+output.close()
+os.system(cmd + " >> output.sailing_mutask20_43")

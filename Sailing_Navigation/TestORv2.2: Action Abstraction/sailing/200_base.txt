@@ -1,0 +1,561 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 18.63      8.51     8.51 272111384     0.00     0.00  problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const
+ 15.37     15.53     7.02 518856898     0.00     0.00  frame_dummy
+ 11.33     20.71     5.18 170453052     0.00     0.00  Problem::min_hash_t<state_t>::QValue(state_t const&, int) const
+ 11.14     25.80     5.09 986782737     0.00     0.00  problem_t::applicable(state_t const&, int) const
+  9.50     30.14     4.34 94742887     0.00     0.00  Online::Policy::random_t<state_t>::operator()(state_t const&) const
+  8.94     34.22     4.09 1135813596     0.00     0.00  state_t::direction(int) const
+  6.62     37.25     3.03 863702212     0.00     0.00  state_t::apply(int) const
+  5.25     39.65     2.40  2000000     0.00     0.00  float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int)
+  3.15     41.09     1.44 272111384     0.00     0.00  std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::reserve(unsigned long)
+  1.94     41.97     0.89 270456563     0.00     0.00  problem_t::cost(state_t const&, int) const
+  1.34     42.58     0.61 1181335767     0.00     0.00  problem_t::number_actions(state_t const&) const
+  1.12     43.09     0.51 100010000     0.00     0.00  std::vector<int, std::allocator<int> >::reserve(unsigned long)
+  1.03     43.56     0.47        3     0.16     7.59  unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&)
+  0.95     44.00     0.44 543159615     0.00     0.00  problem_t::terminal(state_t const&) const
+  0.83     44.38     0.38  5257113     0.00     0.00  Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const
+  0.50     44.61     0.23                             problem_t::~problem_t()
+  0.35     44.77     0.16  2000000     0.00     0.00  Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const
+  0.31     44.91     0.14        1     0.14     0.14  Online::Evaluation::policy_requires_heuristic(std::string const&)
+  0.24     45.02     0.11  5257113     0.00     0.00  Problem::problem_t<state_t>::sample(state_t const&, int) const
+  0.21     45.11     0.10        3     0.03     0.03  problem_t::init() const
+  0.18     45.19     0.08        3     0.03     0.06  void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&)
+  0.14     45.26     0.07                             problem_t::~problem_t()
+  0.13     45.32     0.06                             Online::Policy::RTDP::finite_horizon_lrtdp_t<state_t>::best_action(Online::Policy::RTDP::node_t<state_t> const&, bool) const
+  0.13     45.38     0.06 198752987     0.00     0.00  problem_t::dead_end(state_t const&) const
+  0.11     45.43     0.05  2000003     0.00     0.00  usage(std::ostream&)
+  0.10     45.47     0.05                             std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::~vector()
+  0.09     45.51     0.04                             void std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::_M_emplace_back_aux<std::pair<state_t, float> >(std::pair<state_t, float>&&)
+  0.08     45.55     0.04  8000000     0.00     0.00  std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&)
+  0.07     45.58     0.03  2000000     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+  0.07     45.61     0.03  8000000     0.00     0.00  std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  0.04     45.63     0.02  2000000     0.00     0.00  std::vector<float, std::allocator<float> >::vector<int>(int, int, std::allocator<float> const&)
+  0.02     45.64     0.01  6000000     0.00     0.00  Online::Policy::UCT::data_t::~data_t()
+  0.02     45.65     0.01  2000000     0.00     0.00  std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long)
+  0.02     45.66     0.01  2000000     0.00     0.00  std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, std::tr1::integral_constant<bool, true>)
+  0.02     45.67     0.01  2000000     0.00     0.00  std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>&&)
+  0.02     45.68     0.01  2000000     0.00     0.00  std::vector<int, std::allocator<int> >::vector<int>(int, int, std::allocator<int> const&)
+  0.02     45.69     0.01                             Online::Policy::base_greedy_t<state_t>::operator()(state_t const&) const
+  0.01     45.69     0.01                             std::pair<Online::Policy::policy_t<state_t> const*, std::string>::pair<Online::Policy::random_t<state_t>*, char const*, void>(std::pair<Online::Policy::random_t<state_t>*, char const*>&&)
+  0.00     45.69     0.00  6000000     0.00     0.00  Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&)
+  0.00     45.69     0.00  2000000     0.00     0.00  Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&)
+  0.00     45.69     0.00  2000000     0.00     0.00  std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<unsigned int, state_t>&&, Online::Policy::UCT::data_t&&)
+  0.00     45.69     0.00  2000000     0.00     0.00  std::vector<float, std::allocator<float> >::~vector()
+  0.00     45.69     0.00   240000     0.00     0.00  std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long)
+  0.00     45.69     0.00   240000     0.00     0.00  std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>)
+  0.00     45.69     0.00    10000     0.00     0.00  Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const
+  0.00     45.69     0.00       39     0.00     0.00  std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long)
+  0.00     45.69     0.00       11     0.00     0.00  _init
+  0.00     45.69     0.00        5     0.00     0.00  std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long)
+  0.00     45.69     0.00        3     0.00     0.00  Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::unmark_all()
+  0.00     45.69     0.00        3     0.00     0.00  Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::data_ptr(state_t const&)
+  0.00     45.69     0.00        3     0.00     0.00  std::_List_base<std::pair<state_t, Hash::data_t*>, std::allocator<std::pair<state_t, Hash::data_t*> > >::_M_clear()
+  0.00     45.69     0.00        3     0.00     0.00  void std::_Destroy_aux<false>::__destroy<std::pair<Online::Policy::policy_t<state_t> const*, std::string>*>(std::pair<Online::Policy::policy_t<state_t> const*, std::string>*, std::pair<Online::Policy::policy_t<state_t> const*, std::string>*)
+  0.00     45.69     0.00        3     0.00     0.00  void std::_Destroy_aux<false>::__destroy<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*>(std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*, std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*)
+  0.00     45.69     0.00        2     0.00     0.00  Online::Policy::base_greedy_t<state_t>::base_greedy_t(Problem::problem_t<state_t> const&, Heuristic::heuristic_t<state_t> const&, bool, bool)
+  0.00     45.69     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN9problem_t24default_wind_transition_E
+  0.00     45.69     0.00        1     0.00     0.00  Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::~hash_map_t()
+  0.00     45.69     0.00        1     0.00     0.00  Online::Policy::policy_t<state_t> const* Online::Evaluation::fetch_policy<state_t>(std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&)
+  0.00     45.69     0.00        1     0.00     0.00  Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool)
+  0.00     45.69     0.00        1     0.00     0.00  Online::Policy::UCT::uct_t<state_t>::~uct_t()
+  0.00     45.69     0.00        1     0.00     0.00  Online::Policy::policy_t<state_t> const* Online::Policy::make_uct<state_t>(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool)
+  0.00     45.69     0.00        1     0.00     0.00  Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t()
+  0.00     45.69     0.00        1     0.00     0.00  std::tr1::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+  0.00     45.69     0.00        1     0.00     0.00  std::vector<float, std::allocator<float> >::reserve(unsigned long)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.02% of 45.69 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     50.1    0.00   22.87                 Heuristic::min_min_heuristic_t<state_t>::min_min_heuristic_t(Problem::problem_t<state_t> const&, float) [1]
+                0.47   22.31       3/3           unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+                0.10    0.00       3/3           problem_t::init() const [26]
+                0.00    0.00       3/518856898     frame_dummy [12]
+                0.00    0.00       3/11          _init [63]
+-----------------------------------------------
+                0.47   22.31       3/3           Heuristic::min_min_heuristic_t<state_t>::min_min_heuristic_t(Problem::problem_t<state_t> const&, float) [1]
+[2]     49.8    0.47   22.31       3         unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+                5.18   14.60 170453052/170453052     Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+                1.02    1.23 197760000/986782737     problem_t::applicable(state_t const&, int) const [10]
+                0.08    0.09       3/3           void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.11    0.00 222480000/1181335767     problem_t::number_actions(state_t const&) const [18]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     48.6    0.00   22.23                 std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+                0.00   22.22   10000/10000       Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.00    0.00   10000/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                0.00    0.00   10000/270456563     problem_t::cost(state_t const&, int) const [16]
+                0.00    0.00   10000/543159615     problem_t::terminal(state_t const&) const [20]
+                0.00    0.00   10100/198752987     problem_t::dead_end(state_t const&) const [29]
+                0.00    0.00       1/1           std::vector<float, std::allocator<float> >::reserve(unsigned long) [74]
+-----------------------------------------------
+                0.00   22.22   10000/10000       std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+[4]     48.6    0.00   22.22   10000         Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.16   22.06 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.00    0.00   80000/986782737     problem_t::applicable(state_t const&, int) const [10]
+                0.00    0.00   20000/518856898     frame_dummy [12]
+                0.00    0.00   10000/100010000     std::vector<int, std::allocator<int> >::reserve(unsigned long) [19]
+                0.00    0.00   10000/1181335767     problem_t::number_actions(state_t const&) const [18]
+-----------------------------------------------
+                             5257113             Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.16   22.06 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+[5]     48.6    0.16   22.06 2000000+5257113 Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.05   20.66 2000000/2000003     usage(std::ostream&) [6]
+                0.38    0.36 5257113/5257113     Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [17]
+                0.11    0.21 5257113/5257113     Problem::problem_t<state_t>::sample(state_t const&, int) const [21]
+                0.10    0.00 7257113/518856898     frame_dummy [12]
+                0.01    0.03 2000000/2000000     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, std::tr1::integral_constant<bool, true>) [33]
+                0.00    0.03 4000000/6000000     Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [30]
+                0.03    0.00 2000000/2000000     std::vector<int, std::allocator<int> >::~vector() [35]
+                0.02    0.00 5257113/270456563     problem_t::cost(state_t const&, int) const [16]
+                0.02    0.00 2000000/2000000     std::vector<float, std::allocator<float> >::vector<int>(int, int, std::allocator<float> const&) [38]
+                0.00    0.02 2000000/2000000     Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&) [39]
+                0.01    0.00 6000000/6000000     Online::Policy::UCT::data_t::~data_t() [40]
+                0.01    0.00 2000000/2000000     std::vector<int, std::allocator<int> >::vector<int>(int, int, std::allocator<int> const&) [42]
+                0.01    0.00 2000000/2000000     std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>&&) [41]
+                0.01    0.00 7257113/543159615     problem_t::terminal(state_t const&) const [20]
+                0.00    0.00 7257113/198752987     problem_t::dead_end(state_t const&) const [29]
+                0.00    0.00 4000000/1181335767     problem_t::number_actions(state_t const&) const [18]
+                0.00    0.00 2000000/2000000     std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<unsigned int, state_t>&&, Online::Policy::UCT::data_t&&) [61]
+                0.00    0.00 2000000/2000000     std::vector<float, std::allocator<float> >::~vector() [62]
+                             5257113             Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+-----------------------------------------------
+                0.00    0.00       3/2000003     void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.05   20.66 2000000/2000003     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[6]     45.3    0.05   20.66 2000003         usage(std::ostream&) [6]
+                2.40   18.26 2000000/2000000     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+                0.00    0.00       3/240000      std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>) [45]
+-----------------------------------------------
+                2.40   18.26 2000000/2000000     usage(std::ostream&) [6]
+[7]     45.2    2.40   18.26 2000000         float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+                4.34    9.62 94742887/94742887     Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+                2.96    0.84 94742887/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                0.31    0.08 94742887/270456563     problem_t::cost(state_t const&, int) const [16]
+                0.08    0.00 94742887/543159615     problem_t::terminal(state_t const&) const [20]
+                0.03    0.00 96742887/198752987     problem_t::dead_end(state_t const&) const [29]
+-----------------------------------------------
+                5.18   14.60 170453052/170453052     unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+[8]     43.3    5.18   14.60 170453052         Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+                6.92    0.00 511339689/518856898     frame_dummy [12]
+                5.33    1.52 170446563/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                0.56    0.14 170446563/270456563     problem_t::cost(state_t const&, int) const [16]
+                0.14    0.00 170453052/543159615     problem_t::terminal(state_t const&) const [20]
+-----------------------------------------------
+                4.34    9.62 94742887/94742887     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+[9]     30.6    4.34    9.62 94742887         Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+                3.91    4.71 757943096/986782737     problem_t::applicable(state_t const&, int) const [10]
+                0.49    0.00 947428870/1181335767     problem_t::number_actions(state_t const&) const [18]
+                0.48    0.00 94742887/100010000     std::vector<int, std::allocator<int> >::reserve(unsigned long) [19]
+                0.03    0.00 94742887/198752987     problem_t::dead_end(state_t const&) const [29]
+-----------------------------------------------
+                0.00    0.00   80000/986782737     Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.01    0.01 1919808/986782737     void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.15    0.18 29079833/986782737     Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [17]
+                1.02    1.23 197760000/986782737     unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+                3.91    4.71 757943096/986782737     Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+[10]    24.6    5.09    6.13 986782737         problem_t::applicable(state_t const&, int) const [10]
+                3.03    3.11 863702212/863702212     state_t::apply(int) const [13]
+-----------------------------------------------
+                0.00    0.00   10000/272111384     std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+                0.05    0.01 1654821/272111384     void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.16    0.05 5257113/272111384     Problem::problem_t<state_t>::sample(state_t const&, int) const [21]
+                2.96    0.84 94742887/272111384     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+                5.33    1.52 170446563/272111384     Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+[11]    23.9    8.51    2.42 272111384         problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                1.44    0.00 272111384/272111384     std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::reserve(unsigned long) [15]
+                0.98    0.00 272111384/1135813596     state_t::direction(int) const [14]
+-----------------------------------------------
+                             511339692             frame_dummy [12]
+                0.00    0.00       1/518856898     Online::Policy::UCT::uct_t<state_t>::~uct_t() [51]
+                0.00    0.00       1/518856898     Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [50]
+                0.00    0.00       3/518856898     Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::data_ptr(state_t const&) [49]
+                0.00    0.00       3/518856898     Heuristic::min_min_heuristic_t<state_t>::min_min_heuristic_t(Problem::problem_t<state_t> const&, float) [1]
+                0.00    0.00       5/518856898     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [48]
+                0.00    0.00       5/518856898     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long) [37]
+                0.00    0.00      39/518856898     std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [47]
+                0.00    0.00      39/518856898     std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long) [46]
+                0.00    0.00   20000/518856898     Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.00    0.00  240000/518856898     std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>) [45]
+                0.10    0.00 7257113/518856898     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                6.92    0.00 511339689/518856898     Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+[12]    15.4    7.02    0.00 518856898+511339692 frame_dummy [12]
+                             511339692             frame_dummy [12]
+-----------------------------------------------
+                3.03    3.11 863702212/863702212     problem_t::applicable(state_t const&, int) const [10]
+[13]    13.4    3.03    3.11 863702212         state_t::apply(int) const [13]
+                3.11    0.00 863702212/1135813596     state_t::direction(int) const [14]
+-----------------------------------------------
+                0.98    0.00 272111384/1135813596     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                3.11    0.00 863702212/1135813596     state_t::apply(int) const [13]
+[14]     8.9    4.09    0.00 1135813596         state_t::direction(int) const [14]
+-----------------------------------------------
+                1.44    0.00 272111384/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+[15]     3.2    1.44    0.00 272111384         std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::reserve(unsigned long) [15]
+-----------------------------------------------
+                0.00    0.00   10000/270456563     std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+                0.02    0.00 5257113/270456563     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.31    0.08 94742887/270456563     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+                0.56    0.14 170446563/270456563     Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+[16]     2.4    0.89    0.22 270456563         problem_t::cost(state_t const&, int) const [16]
+                0.22    0.00 270456563/543159615     problem_t::terminal(state_t const&) const [20]
+-----------------------------------------------
+                0.38    0.36 5257113/5257113     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[17]     1.6    0.38    0.36 5257113         Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [17]
+                0.15    0.18 29079833/986782737     problem_t::applicable(state_t const&, int) const [10]
+                0.03    0.00 5257113/100010000     std::vector<int, std::allocator<int> >::reserve(unsigned long) [19]
+                0.00    0.00 5257113/1181335767     problem_t::number_actions(state_t const&) const [18]
+-----------------------------------------------
+                0.00    0.00   10000/1181335767     Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.00    0.00 2159784/1181335767     void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.00    0.00 4000000/1181335767     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.00    0.00 5257113/1181335767     Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [17]
+                0.11    0.00 222480000/1181335767     unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+                0.49    0.00 947428870/1181335767     Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+[18]     1.3    0.61    0.00 1181335767         problem_t::number_actions(state_t const&) const [18]
+-----------------------------------------------
+                0.00    0.00   10000/100010000     Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [4]
+                0.03    0.00 5257113/100010000     Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [17]
+                0.48    0.00 94742887/100010000     Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+[19]     1.1    0.51    0.00 100010000         std::vector<int, std::allocator<int> >::reserve(unsigned long) [19]
+-----------------------------------------------
+                0.00    0.00   10000/543159615     std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+                0.00    0.00  240000/543159615     void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.01    0.00 7257113/543159615     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.08    0.00 94742887/543159615     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+                0.14    0.00 170453052/543159615     Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [8]
+                0.22    0.00 270456563/543159615     problem_t::cost(state_t const&, int) const [16]
+[20]     1.0    0.44    0.00 543159615         problem_t::terminal(state_t const&) const [20]
+-----------------------------------------------
+                0.11    0.21 5257113/5257113     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[21]     0.7    0.11    0.21 5257113         Problem::problem_t<state_t>::sample(state_t const&, int) const [21]
+                0.16    0.05 5257113/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+-----------------------------------------------
+                                                 <spontaneous>
+[22]     0.5    0.23    0.00                 problem_t::~problem_t() [22]
+-----------------------------------------------
+                0.08    0.09       3/3           unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [2]
+[23]     0.4    0.08    0.09       3         void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+                0.05    0.01 1654821/272111384     problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [11]
+                0.01    0.01 1919808/986782737     problem_t::applicable(state_t const&, int) const [10]
+                0.00    0.00  239997/240000      std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>) [45]
+                0.00    0.00 2159784/1181335767     problem_t::number_actions(state_t const&) const [18]
+                0.00    0.00  240000/543159615     problem_t::terminal(state_t const&) const [20]
+                0.00    0.00       3/2000003     usage(std::ostream&) [6]
+                0.00    0.00       3/3           Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::data_ptr(state_t const&) [49]
+                0.00    0.00       3/3           Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::unmark_all() [64]
+                0.00    0.00       3/3           std::_List_base<std::pair<state_t, Hash::data_t*>, std::allocator<std::pair<state_t, Hash::data_t*> > >::_M_clear() [65]
+-----------------------------------------------
+                                                 <spontaneous>
+[24]     0.3    0.00    0.14                 std::pair<Online::Policy::policy_t<state_t> const*, std::string> Online::Evaluation::select_policy<state_t>(Problem::problem_t<state_t> const&, std::string const&, std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&, std::vector<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>, std::allocator<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> > >&, Online::Evaluation::parameters_t const&) [24]
+                0.14    0.00       1/1           Online::Evaluation::policy_requires_heuristic(std::string const&) [25]
+                0.00    0.00       1/1           Online::Policy::policy_t<state_t> const* Online::Policy::make_uct<state_t>(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [52]
+                0.00    0.00       1/1           Online::Policy::policy_t<state_t> const* Online::Evaluation::fetch_policy<state_t>(std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&) [71]
+-----------------------------------------------
+                0.14    0.00       1/1           std::pair<Online::Policy::policy_t<state_t> const*, std::string> Online::Evaluation::select_policy<state_t>(Problem::problem_t<state_t> const&, std::string const&, std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&, std::vector<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>, std::allocator<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> > >&, Online::Evaluation::parameters_t const&) [24]
+[25]     0.3    0.14    0.00       1         Online::Evaluation::policy_requires_heuristic(std::string const&) [25]
+-----------------------------------------------
+                0.10    0.00       3/3           Heuristic::min_min_heuristic_t<state_t>::min_min_heuristic_t(Problem::problem_t<state_t> const&, float) [1]
+[26]     0.2    0.10    0.00       3         problem_t::init() const [26]
+-----------------------------------------------
+                                                 <spontaneous>
+[27]     0.1    0.07    0.00                 problem_t::~problem_t() [27]
+-----------------------------------------------
+                                                 <spontaneous>
+[28]     0.1    0.06    0.00                 Online::Policy::RTDP::finite_horizon_lrtdp_t<state_t>::best_action(Online::Policy::RTDP::node_t<state_t> const&, bool) const [28]
+-----------------------------------------------
+                0.00    0.00   10100/198752987     std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+                0.00    0.00 7257113/198752987     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+                0.03    0.00 94742887/198752987     Online::Policy::random_t<state_t>::operator()(state_t const&) const [9]
+                0.03    0.00 96742887/198752987     float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [7]
+[29]     0.1    0.06    0.00 198752987         problem_t::dead_end(state_t const&) const [29]
+-----------------------------------------------
+                0.00    0.02 2000000/6000000     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long) [37]
+                0.00    0.03 4000000/6000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[30]     0.1    0.00    0.05 6000000         Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [30]
+                0.03    0.00 6000000/8000000     std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&) [34]
+                0.02    0.00 6000000/8000000     std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [36]
+-----------------------------------------------
+                                                 <spontaneous>
+[31]     0.1    0.05    0.00                 std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::~vector() [31]
+-----------------------------------------------
+                                                 <spontaneous>
+[32]     0.1    0.04    0.00                 void std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::_M_emplace_back_aux<std::pair<state_t, float> >(std::pair<state_t, float>&&) [32]
+-----------------------------------------------
+                0.01    0.03 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[33]     0.1    0.01    0.03 2000000         std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, std::tr1::integral_constant<bool, true>) [33]
+                0.01    0.02 2000000/2000000     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long) [37]
+-----------------------------------------------
+                0.01    0.00 2000000/8000000     Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&) [39]
+                0.03    0.00 6000000/8000000     Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [30]
+[34]     0.1    0.04    0.00 8000000         std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&) [34]
+-----------------------------------------------
+                0.03    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[35]     0.1    0.03    0.00 2000000         std::vector<int, std::allocator<int> >::~vector() [35]
+-----------------------------------------------
+                0.01    0.00 2000000/8000000     Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&) [39]
+                0.02    0.00 6000000/8000000     Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [30]
+[36]     0.1    0.03    0.00 8000000         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [36]
+-----------------------------------------------
+                0.01    0.02 2000000/2000000     std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, std::tr1::integral_constant<bool, true>) [33]
+[37]     0.1    0.01    0.02 2000000         std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long) [37]
+                0.00    0.02 2000000/6000000     Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [30]
+                0.00    0.00       5/518856898     frame_dummy [12]
+                0.00    0.00       5/5           std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [48]
+-----------------------------------------------
+                0.02    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[38]     0.0    0.02    0.00 2000000         std::vector<float, std::allocator<float> >::vector<int>(int, int, std::allocator<float> const&) [38]
+-----------------------------------------------
+                0.00    0.02 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[39]     0.0    0.00    0.02 2000000         Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&) [39]
+                0.01    0.00 2000000/8000000     std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&) [34]
+                0.01    0.00 2000000/8000000     std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [36]
+-----------------------------------------------
+                0.01    0.00 6000000/6000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[40]     0.0    0.01    0.00 6000000         Online::Policy::UCT::data_t::~data_t() [40]
+-----------------------------------------------
+                0.01    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[41]     0.0    0.01    0.00 2000000         std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>&&) [41]
+-----------------------------------------------
+                0.01    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[42]     0.0    0.01    0.00 2000000         std::vector<int, std::allocator<int> >::vector<int>(int, int, std::allocator<int> const&) [42]
+-----------------------------------------------
+                                                 <spontaneous>
+[43]     0.0    0.01    0.00                 Online::Policy::base_greedy_t<state_t>::operator()(state_t const&) const [43]
+-----------------------------------------------
+                                                 <spontaneous>
+[44]     0.0    0.01    0.00                 std::pair<Online::Policy::policy_t<state_t> const*, std::string>::pair<Online::Policy::random_t<state_t>*, char const*, void>(std::pair<Online::Policy::random_t<state_t>*, char const*>&&) [44]
+-----------------------------------------------
+                0.00    0.00       3/240000      usage(std::ostream&) [6]
+                0.00    0.00  239997/240000      void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+[45]     0.0    0.00    0.00  240000         std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>) [45]
+                0.00    0.00  240000/518856898     frame_dummy [12]
+                0.00    0.00  240000/240000      std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long) [46]
+-----------------------------------------------
+                0.00    0.00  240000/240000      std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>) [45]
+[46]     0.0    0.00    0.00  240000         std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long) [46]
+                0.00    0.00      39/518856898     frame_dummy [12]
+                0.00    0.00      39/39          std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [47]
+-----------------------------------------------
+                0.00    0.00      39/39          std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long) [46]
+[47]     0.0    0.00    0.00      39         std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [47]
+                0.00    0.00      39/518856898     frame_dummy [12]
+-----------------------------------------------
+                0.00    0.00       5/5           std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long) [37]
+[48]     0.0    0.00    0.00       5         std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long) [48]
+                0.00    0.00       5/518856898     frame_dummy [12]
+-----------------------------------------------
+                0.00    0.00       3/3           void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+[49]     0.0    0.00    0.00       3         Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::data_ptr(state_t const&) [49]
+                0.00    0.00       3/518856898     frame_dummy [12]
+-----------------------------------------------
+                0.00    0.00       1/1           Online::Policy::policy_t<state_t> const* Online::Policy::make_uct<state_t>(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [52]
+[50]     0.0    0.00    0.00       1         Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [50]
+                0.00    0.00       1/518856898     frame_dummy [12]
+                0.00    0.00       1/1           std::tr1::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const [73]
+                0.00    0.00       1/11          _init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           Online::Policy::UCT::uct_t<state_t>::~uct_t() [53]
+[51]     0.0    0.00    0.00       1         Online::Policy::UCT::uct_t<state_t>::~uct_t() [51]
+                0.00    0.00       1/518856898     frame_dummy [12]
+                0.00    0.00       1/11          _init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<Online::Policy::policy_t<state_t> const*, std::string> Online::Evaluation::select_policy<state_t>(Problem::problem_t<state_t> const&, std::string const&, std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&, std::vector<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>, std::allocator<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> > >&, Online::Evaluation::parameters_t const&) [24]
+[52]     0.0    0.00    0.00       1         Online::Policy::policy_t<state_t> const* Online::Policy::make_uct<state_t>(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [52]
+                0.00    0.00       1/1           Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [50]
+-----------------------------------------------
+                                                 <spontaneous>
+[53]     0.0    0.00    0.00                 Online::Policy::UCT::uct_t<state_t>::~uct_t() [53]
+                0.00    0.00       1/1           Online::Policy::UCT::uct_t<state_t>::~uct_t() [51]
+-----------------------------------------------
+                0.00    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[61]     0.0    0.00    0.00 2000000         std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<unsigned int, state_t>&&, Online::Policy::UCT::data_t&&) [61]
+-----------------------------------------------
+                0.00    0.00 2000000/2000000     Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [5]
+[62]     0.0    0.00    0.00 2000000         std::vector<float, std::allocator<float> >::~vector() [62]
+-----------------------------------------------
+                0.00    0.00       1/11          Online::Policy::UCT::uct_t<state_t>::~uct_t() [51]
+                0.00    0.00       1/11          Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t() [72]
+                0.00    0.00       1/11          Online::Policy::random_t<state_t>::random_t(Problem::problem_t<state_t> const&) [152]
+                0.00    0.00       1/11          Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [50]
+                0.00    0.00       2/11          Online::Policy::greedy_t<state_t>::~greedy_t() [148]
+                0.00    0.00       2/11          Online::Policy::base_greedy_t<state_t>::base_greedy_t(Problem::problem_t<state_t> const&, Heuristic::heuristic_t<state_t> const&, bool, bool) [68]
+                0.00    0.00       3/11          Heuristic::min_min_heuristic_t<state_t>::min_min_heuristic_t(Problem::problem_t<state_t> const&, float) [1]
+[63]     0.0    0.00    0.00      11         _init [63]
+-----------------------------------------------
+                0.00    0.00       3/3           void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+[64]     0.0    0.00    0.00       3         Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::unmark_all() [64]
+-----------------------------------------------
+                0.00    0.00       3/3           void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [23]
+[65]     0.0    0.00    0.00       3         std::_List_base<std::pair<state_t, Hash::data_t*>, std::allocator<std::pair<state_t, Hash::data_t*> > >::_M_clear() [65]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >::_M_emplace_back_aux<std::pair<Online::Policy::policy_t<state_t> const*, std::string> >(std::pair<Online::Policy::policy_t<state_t> const*, std::string>&&) [394]
+[66]     0.0    0.00    0.00       3         void std::_Destroy_aux<false>::__destroy<std::pair<Online::Policy::policy_t<state_t> const*, std::string>*>(std::pair<Online::Policy::policy_t<state_t> const*, std::string>*, std::pair<Online::Policy::policy_t<state_t> const*, std::string>*) [66]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::vector<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>, std::allocator<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> > >::_M_emplace_back_aux<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> >(std::pair<Heuristic::heuristic_t<state_t> const*, std::string>&&) [397]
+[67]     0.0    0.00    0.00       3         void std::_Destroy_aux<false>::__destroy<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*>(std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*, std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*) [67]
+-----------------------------------------------
+                0.00    0.00       2/2           Online::Policy::greedy_t<state_t>::greedy_t(Problem::problem_t<state_t> const&, Heuristic::heuristic_t<state_t> const&) [146]
+[68]     0.0    0.00    0.00       2         Online::Policy::base_greedy_t<state_t>::base_greedy_t(Problem::problem_t<state_t> const&, Heuristic::heuristic_t<state_t> const&, bool, bool) [68]
+                0.00    0.00       2/11          _init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [419]
+[69]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN9problem_t24default_wind_transition_E [69]
+-----------------------------------------------
+                0.00    0.00       1/1           Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t() [72]
+[70]     0.0    0.00    0.00       1         Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::~hash_map_t() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<Online::Policy::policy_t<state_t> const*, std::string> Online::Evaluation::select_policy<state_t>(Problem::problem_t<state_t> const&, std::string const&, std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&, std::vector<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>, std::allocator<std::pair<Heuristic::heuristic_t<state_t> const*, std::string> > >&, Online::Evaluation::parameters_t const&) [24]
+[71]     0.0    0.00    0.00       1         Online::Policy::policy_t<state_t> const* Online::Evaluation::fetch_policy<state_t>(std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&) [71]
+-----------------------------------------------
+                0.00    0.00       1/1           Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t() [185]
+[72]     0.0    0.00    0.00       1         Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t() [72]
+                0.00    0.00       1/1           Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::~hash_map_t() [70]
+                0.00    0.00       1/11          _init [63]
+-----------------------------------------------
+                0.00    0.00       1/1           Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [50]
+[73]     0.0    0.00    0.00       1         std::tr1::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const [73]
+-----------------------------------------------
+                0.00    0.00       1/1           std::pair<float, float> Online::Evaluation::evaluation_with_stdev<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int, unsigned int, bool) [3]
+[74]     0.0    0.00    0.00       1         std::vector<float, std::allocator<float> >::reserve(unsigned long) [74]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [69] _GLOBAL__sub_I__ZN9problem_t24default_wind_transition_E [5] Online::Policy::UCT::uct_t<state_t>::search_tree(state_t const&, unsigned int) const [45] std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<state_t const, Hash::data_t*> const&, std::tr1::integral_constant<bool, true>)
+   [6] usage(std::ostream&)   [17] Online::Policy::UCT::uct_t<state_t>::select_action(state_t const&, Online::Policy::UCT::data_t const&, int, bool, bool) const [47] std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long)
+  [64] Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::unmark_all() [4] Online::Policy::UCT::uct_t<state_t>::operator()(state_t const&) const [37] std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, unsigned long, unsigned long)
+  [49] Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::data_ptr(state_t const&) [28] Online::Policy::RTDP::finite_horizon_lrtdp_t<state_t>::best_action(Online::Policy::RTDP::node_t<state_t> const&, bool) const [33] std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert(std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> const&, std::tr1::integral_constant<bool, true>)
+  [70] Hash::hash_map_t<state_t, Hash::hash_function_t<state_t> >::~hash_map_t() [9] Online::Policy::random_t<state_t>::operator()(state_t const&) const [48] std::tr1::_Hashtable<std::pair<unsigned int, state_t>, std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>, std::allocator<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::_Select1st<std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t> >, std::equal_to<std::pair<unsigned int, state_t> >, Online::Policy::UCT::map_functions_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_rehash(unsigned long)
+  [71] Online::Policy::policy_t<state_t> const* Online::Evaluation::fetch_policy<state_t>(std::string const&, std::vector<std::pair<Online::Policy::policy_t<state_t> const*, std::string>, std::allocator<std::pair<Online::Policy::policy_t<state_t> const*, std::string> > >&) [8] Problem::min_hash_t<state_t>::QValue(state_t const&, int) const [41] std::pair<std::pair<unsigned int, state_t> const, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>&&)
+   [7] float Online::Evaluation::evaluation_trial<state_t>(Online::Policy::policy_t<state_t> const&, state_t const&, unsigned int) [21] Problem::problem_t<state_t>::sample(state_t const&, int) const [44] std::pair<Online::Policy::policy_t<state_t> const*, std::string>::pair<Online::Policy::random_t<state_t>*, char const*, void>(std::pair<Online::Policy::random_t<state_t>*, char const*>&&)
+  [25] Online::Evaluation::policy_requires_heuristic(std::string const&) [13] state_t::apply(int) const [61] std::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t>::pair<std::pair<unsigned int, state_t>, Online::Policy::UCT::data_t, void>(std::pair<unsigned int, state_t>&&, Online::Policy::UCT::data_t&&)
+  [68] Online::Policy::base_greedy_t<state_t>::base_greedy_t(Problem::problem_t<state_t> const&, Heuristic::heuristic_t<state_t> const&, bool, bool) [14] state_t::direction(int) const [32] void std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::_M_emplace_back_aux<std::pair<state_t, float> >(std::pair<state_t, float>&&)
+  [50] Online::Policy::UCT::uct_t<state_t>::uct_t(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [10] problem_t::applicable(state_t const&, int) const [15] std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::reserve(unsigned long)
+  [51] Online::Policy::UCT::uct_t<state_t>::~uct_t() [18] problem_t::number_actions(state_t const&) const [31] std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >::~vector()
+  [30] Online::Policy::UCT::data_t::data_t(Online::Policy::UCT::data_t const&) [16] problem_t::cost(state_t const&, int) const [74] std::vector<float, std::allocator<float> >::reserve(unsigned long)
+  [39] Online::Policy::UCT::data_t::data_t(std::vector<float, std::allocator<float> > const&, std::vector<int, std::allocator<int> > const&) [26] problem_t::init() const [34] std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&)
+  [40] Online::Policy::UCT::data_t::~data_t() [11] problem_t::next(state_t const&, int, std::vector<std::pair<state_t, float>, std::allocator<std::pair<state_t, float> > >&) const [38] std::vector<float, std::allocator<float> >::vector<int>(int, int, std::allocator<float> const&)
+  [52] Online::Policy::policy_t<state_t> const* Online::Policy::make_uct<state_t>(Online::Policy::policy_t<state_t> const&, unsigned int, unsigned int, float, bool) [29] problem_t::dead_end(state_t const&) const [62] std::vector<float, std::allocator<float> >::~vector()
+  [23] void Algorithm::generate_space<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&) [20] problem_t::terminal(state_t const&) const [19] std::vector<int, std::allocator<int> >::reserve(unsigned long)
+   [2] unsigned long Algorithm::value_iteration<state_t>(Problem::problem_t<state_t> const&, state_t const&, Problem::hash_t<state_t>&, Algorithm::parameters_t const&) [73] std::tr1::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const [36] std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  [72] Heuristic::min_min_heuristic_t<state_t>::~min_min_heuristic_t() [65] std::_List_base<std::pair<state_t, Hash::data_t*>, std::allocator<std::pair<state_t, Hash::data_t*> > >::_M_clear() [42] std::vector<int, std::allocator<int> >::vector<int>(int, int, std::allocator<int> const&)
+  [27] problem_t::~problem_t() [66] void std::_Destroy_aux<false>::__destroy<std::pair<Online::Policy::policy_t<state_t> const*, std::string>*>(std::pair<Online::Policy::policy_t<state_t> const*, std::string>*, std::pair<Online::Policy::policy_t<state_t> const*, std::string>*) [35] std::vector<int, std::allocator<int> >::~vector()
+  [22] problem_t::~problem_t() [67] void std::_Destroy_aux<false>::__destroy<std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*>(std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*, std::pair<Heuristic::heuristic_t<state_t> const*, std::string>*) [63] _init
+  [43] Online::Policy::base_greedy_t<state_t>::operator()(state_t const&) const [46] std::tr1::_Hashtable<state_t, std::pair<state_t const, Hash::data_t*>, std::allocator<std::pair<state_t const, Hash::data_t*> >, std::_Select1st<std::pair<state_t const, Hash::data_t*> >, std::equal_to<state_t>, Hash::hash_function_t<state_t>, std::tr1::__detail::_Mod_range_hashing, std::tr1::__detail::_Default_ranged_hash, std::tr1::__detail::_Prime_rehash_policy, false, false, true>::_M_insert_bucket(std::pair<state_t const, Hash::data_t*> const&, unsigned long, unsigned long) [12] frame_dummy

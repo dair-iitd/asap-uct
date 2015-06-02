@@ -1,0 +1,24 @@
+#!/bin/bash
+
+rawdir=$1
+domain=$2
+
+rm -fr data.csv data
+../extract-problems $rawdir $domain
+
+if [ ! -s tmp.problems ]; then
+    rm -f tmp.problems
+    echo "Error: no problems found."
+    exit 0
+fi
+
+awk '{ file = $1;
+       problem = $2;
+       cmd = "../extract-csv " domain " " problem " " file;
+       printf "Extracting problem '%s'\n", problem;
+       system(cmd);
+     }' domain=$domain tmp.problems
+
+rm -f tmp.problems
+cat ../header.csv data/* > data.csv
+
