@@ -1,0 +1,200 @@
+seed1=0
+#trials=1:
+Start Time0.000000 0(1,1,1,)-96.500000
+(-96.50)[-nan]
+
+Values-96.50uct(random,width=0,depth=40,par=100)= -96.50000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=505640
+seed1=1
+#trials=1:
+Start Time0.000000 0(1,1,1,)-84.750000
+(-84.75)[-nan]
+
+Values-84.75uct(random,width=0,depth=40,par=100)= -84.75000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=518040
+seed1=2
+#trials=1:
+Start Time0.000000 0(1,1,1,)-102.000000
+(-102.00)[-nan]
+
+Values-102.00uct(random,width=0,depth=40,par=100)= -102.00000 -nan ( 0.36 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=495690
+seed1=3
+#trials=1:
+Start Time0.000000 0(1,1,1,)-88.750000
+(-88.75)[-nan]
+
+Values-88.75uct(random,width=0,depth=40,par=100)= -88.75000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=512830
+seed1=4
+#trials=1:
+Start Time0.000000 0(1,1,1,)-99.750000
+(-99.75)[-nan]
+
+Values-99.75uct(random,width=0,depth=40,par=100)= -99.75000 -nan ( 0.36 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=497450
+seed1=5
+#trials=1:
+Start Time0.000000 0(1,1,1,)-95.500000
+(-95.50)[-nan]
+
+Values-95.50uct(random,width=0,depth=40,par=100)= -95.50000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=509880
+seed1=6
+#trials=1:
+Start Time0.000000 0(1,1,1,)-100.000000
+(-100.00)[-nan]
+
+Values-100.00uct(random,width=0,depth=40,par=100)= -100.00000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=497760
+seed1=7
+#trials=1:
+Start Time0.000000 0(1,1,1,)-107.000000
+(-107.00)[-nan]
+
+Values-107.00uct(random,width=0,depth=40,par=100)= -107.00000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=498250
+seed1=8
+#trials=1:
+Start Time0.000000 0(1,1,1,)-103.750000
+(-103.75)[-nan]
+
+Values-103.75uct(random,width=0,depth=40,par=100)= -103.75000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=498380
+seed1=9
+#trials=1:
+Start Time0.000000 0(1,1,1,)-100.250000
+(-100.25)[-nan]
+
+Values-100.25uct(random,width=0,depth=40,par=100)= -100.25000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=501550
+seed1=10
+#trials=1:
+Start Time0.000000 0(1,1,1,)-98.750000
+(-98.75)[-nan]
+
+Values-98.75uct(random,width=0,depth=40,par=100)= -98.75000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=504780
+seed1=11
+#trials=1:
+Start Time0.000000 0(1,1,1,)-102.000000
+(-102.00)[-nan]
+
+Values-102.00uct(random,width=0,depth=40,par=100)= -102.00000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=499880
+seed1=12
+#trials=1:
+Start Time0.000000 0(1,1,1,)-96.500000
+(-96.50)[-nan]
+
+Values-96.50uct(random,width=0,depth=40,par=100)= -96.50000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=504600
+seed1=13
+#trials=1:
+Start Time0.000000 0(1,1,1,)-102.500000
+(-102.50)[-nan]
+
+Values-102.50uct(random,width=0,depth=40,par=100)= -102.50000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=507700
+seed1=14
+#trials=1:
+Start Time0.000000 0(1,1,1,)-103.500000
+(-103.50)[-nan]
+
+Values-103.50uct(random,width=0,depth=40,par=100)= -103.50000 -nan ( 0.36 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=498410
+seed1=15
+#trials=1:
+Start Time0.000000 0(1,1,1,)-97.250000
+(-97.25)[-nan]
+
+Values-97.25uct(random,width=0,depth=40,par=100)= -97.25000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=504940
+seed1=16
+#trials=1:
+Start Time0.000000 0(1,1,1,)-104.000000
+(-104.00)[-nan]
+
+Values-104.00uct(random,width=0,depth=40,par=100)= -104.00000 -nan ( 0.36 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=499550
+seed1=17
+#trials=1:
+Start Time0.000000 0(1,1,1,)-88.000000
+(-88.00)[-nan]
+
+Values-88.00uct(random,width=0,depth=40,par=100)= -88.00000 -nan ( 0.38 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=511900
+seed1=18
+#trials=1:
+Start Time0.000000 0(1,1,1,)-101.750000
+(-101.75)[-nan]
+
+Values-101.75uct(random,width=0,depth=40,par=100)= -101.75000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=492400
+seed1=19
+#trials=1:
+Start Time0.000000 0(1,1,1,)-91.250000
+(-91.25)[-nan]
+
+Values-91.25uct(random,width=0,depth=40,par=100)= -91.25000 -nan ( 0.37 secs 40 decisions)
+stats: policy=uct(width=0,horizon=40,par=100,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=510420

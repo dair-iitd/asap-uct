@@ -1,0 +1,6 @@
+rm -f *~ core
+rm -f *~ core
+rm -f main.o sailing *~ core
+g++ -Wall -O3 -ffloat-store -ffast-math -msse -I../engine -DNDEBUG -std=c++0x -c main.cc
+g++ -Wall -O3 -ffloat-store -ffast-math -msse -I../engine -DNDEBUG -std=c++0x -o sailing main.o
+seed=0
