@@ -2,17 +2,29 @@
 This repository contains all source files corresponding to a novel MDP Planner - which combines abstractions/symmteries
 and UCT framework. 
 
-"How to Compile and Run": 
+
+"How to Compile and Run":
+
 Compile and Run : 
+
 1. In respective domain directory: make
+
 2. ./domain-name -f -a 0 -h 0 -s 0 -t domain-szie random uct l w time
+ 
     where 
+
         l : number of times abstractions should be applied
+        
         w : plannign horizon
+
         time: total time of trial
+        
     The other parameters are kept static and as per MDP engine, can be looked in Detail     
+   
    e.g run:
+   
       ./sailing  -f -a 0 -h 0 -s 0 -t 1000 100 random uct 2 30 50 
+
 
 
 Papers Based on this work :
@@ -41,4 +53,4 @@ Most of abstraction code is written in a single files with in engine:
 though some modifications are also made to policy.h to adapt to changes in abstractions.
 
 ........................................................................................................
-The base code is adapted from MDP Engine of Blai Bonet (http://code.google.com/p/mdp-engine/) . We thank them for it
+The base code is adapted from MDP Engine of Blai Bonet (http://code.google.com/p/mdp-engine/) . 
