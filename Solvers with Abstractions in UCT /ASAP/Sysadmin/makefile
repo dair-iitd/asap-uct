@@ -1,0 +1,15 @@
+CXX	=	g++
+CCFLAGS	=	-Wall -O3 -ffloat-store -ffast-math -lrt  -msse -I../engine -DNDEBUG -Wl,--no-as-needed -lrt
+EXTRA	=	-std=c++0x
+OBJS	=	main.o
+TARGET	=	sysadmin
+
+$(TARGET):	$(OBJS)
+		$(CXX) $(CCFLAGS) $(EXTRA) -o $(TARGET) $(OBJS)
+
+clean:
+		rm -f $(OBJS) $(TARGET) *~ core
+
+.cc.o:
+		$(CXX) $(CCFLAGS) $(EXTRA) -c $<
+

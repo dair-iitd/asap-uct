@@ -1,0 +1,2520 @@
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 50 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(2928.0) 1(2026.5) 2(1797.7) 3(1931.2) 4(1838.4) 5(1737.8) 6(1534.1) 7(1595.0) 8(1568.9) 9(1571.3) 10(1536.6) 11(1462.5) 12(1364.9) 13(1303.6) 14(1317.1) 15(1269.4) 16(1222.8) 17(1243.0) 18(1213.4) 19(1233.8) 20(1208.4) 21(1191.4) 22(1194.4) 23(1154.9) 24(1202.9) 25(1169.6) 26(1155.0) 27(1169.8) 28(1137.3) 29(1109.8) 30(1086.3) 31(1064.0) 32(1064.6) 33(1076.1) 34(1062.1) 35(1058.9) 36(1044.9) 37(1029.7) 38(1027.5) 39(1083.0) 40(1100.5) 41(1092.1) 42(1068.6) 43(1081.0) 44(1072.7) 45(1068.8) 46(1065.4) 47(1049.2) 48(1042.9) 49(1027.3) 50(1032.0) 51(1017.6) 52(1023.8) 53(1027.3) 54(1016.6) 55(1010.1) 56(1042.5) 57(1035.9) 58(1039.6) 59(1035.5) 60(1023.9) 61(1035.4) 62(1062.0) 63(1060.0) 64(1063.0) 65(1053.3) 66(1048.4) 67(1065.8) 68(1057.0) 69(1054.5) 70(1044.8) 71(1051.8) 72(1063.0) 73(1079.9) 74(1070.5) 75(1062.8) 76(1059.8) 77(1057.4) 78(1056.8) 79(1054.7) 80(1056.8) 81(1060.9) 82(1056.7) 83(1049.1) 84(1066.8) 85(1058.5) 86(1055.4) 87(1051.6) 88(1054.3) 89(1058.3) 90(1057.6) 91(1061.6) 92(1062.3) 93(1070.2) 94(1062.3) 95(1053.5) 96(1062.2) 97(1069.2) 98(1069.9) 99(1060.0)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=50,depth=50,par=2)= 1060.02002 69.58379 ( 15.68 secs 1899 decisions)
+stats: policy=uct(width=50,horizon=50,par=2,random-ties=false)
+stats: decisions=1899
+stats: policy=random()
+stats: decisions=2230985
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 100 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1393.0) 1(757.5) 2(867.7) 3(832.8) 4(704.2) 5(696.3) 6(645.1) 7(619.1) 8(559.1) 9(562.8) 10(518.8) 11(536.8) 12(514.0) 13(495.2) 14(468.5) 15(490.8) 16(474.6) 17(510.4) 18(583.4) 19(590.5) 20(574.0) 21(602.5) 22(635.5) 23(645.3) 24(661.1) 25(656.5) 26(639.7) 27(694.9) 28(673.7) 29(661.3) 30(662.3) 31(695.5) 32(695.0) 33(709.2) 34(716.9) 35(731.4) 36(713.8) 37(718.5) 38(725.8) 39(742.0) 40(745.8) 41(756.2) 42(761.2) 43(763.9) 44(786.8) 45(798.5) 46(797.1) 47(785.0) 48(772.8) 49(765.5) 50(755.0) 51(751.8) 52(754.3) 53(745.0) 54(744.3) 55(738.6) 56(746.1) 57(739.6) 58(739.0) 59(754.6) 60(774.9) 61(783.2) 62(817.4) 63(819.6) 64(828.2) 65(831.1) 66(824.3) 67(821.1) 68(817.4) 69(815.8) 70(820.0) 71(821.6) 72(811.9) 73(808.1) 74(812.3) 75(809.1) 76(823.1) 77(820.8) 78(819.4) 79(821.5) 80(815.8) 81(806.8) 82(811.6) 83(811.7) 84(805.7) 85(812.7) 86(817.3) 87(816.4) 88(818.2) 89(816.1) 90(810.5) 91(827.4) 92(832.5) 93(825.7) 94(820.1) 95(815.6) 96(812.9) 97(826.5) 98(825.1) 99(824.0)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=100,depth=50,par=2)= 823.96997 57.26042 ( 28.38 secs 1667 decisions)
+stats: policy=uct(width=100,horizon=50,par=2,random-ties=false)
+stats: decisions=1667
+stats: policy=random()
+stats: decisions=3968985
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 200 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1847.0) 1(1258.0) 2(1192.3) 3(1304.8) 4(1169.8) 5(1002.0) 6(881.9) 7(834.8) 8(780.2) 9(710.1) 10(702.4) 11(702.3) 12(676.8) 13(671.1) 14(688.9) 15(680.5) 16(668.4) 17(654.8) 18(677.8) 19(659.5) 20(663.5) 21(647.8) 22(626.0) 23(666.8) 24(653.8) 25(687.9) 26(681.8) 27(683.6) 28(674.7) 29(685.5) 30(679.2) 31(687.0) 32(669.4) 33(670.7) 34(667.7) 35(664.8) 36(664.9) 37(668.7) 38(679.1) 39(684.1) 40(681.2) 41(669.4) 42(679.8) 43(688.4) 44(675.3) 45(695.8) 46(691.7) 47(680.8) 48(678.5) 49(683.9) 50(680.3) 51(675.7) 52(681.3) 53(671.4) 54(672.3) 55(662.3) 56(653.5) 57(645.7) 58(658.0) 59(649.0) 60(648.2) 61(658.1) 62(660.5) 63(653.9) 64(658.2) 65(653.7) 66(653.4) 67(646.9) 68(651.6) 69(649.9) 70(647.2) 71(657.5) 72(661.2) 73(662.8) 74(668.8) 75(664.8) 76(657.9) 77(654.5) 78(648.5) 79(647.0) 80(646.8) 81(650.1) 82(651.7) 83(646.1) 84(646.3) 85(641.8) 86(651.7) 87(647.0) 88(651.9) 89(646.1) 90(645.5) 91(653.4) 92(655.2) 93(650.2) 94(647.1) 95(643.5) 96(654.6) 97(653.4) 98(648.3) 99(653.0)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=200,depth=50,par=2)= 652.98999 43.18022 ( 53.46 secs 1587 decisions)
+stats: policy=uct(width=200,horizon=50,par=2,random-ties=false)
+stats: decisions=1587
+stats: policy=random()
+stats: decisions=7490669
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 300 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1511.0) 1(931.0) 2(879.3) 3(838.8) 4(836.0) 5(738.3) 6(669.7) 7(595.9) 8(573.1) 9(621.8) 10(582.2) 11(566.7) 12(563.8) 13(555.4) 14(536.2) 15(593.4) 16(609.0) 17(602.1) 18(606.9) 19(586.0) 20(571.0) 21(573.0) 22(558.2) 23(542.1) 24(555.8) 25(572.8) 26(559.5) 27(555.6) 28(578.4) 29(613.9) 30(608.9) 31(620.5) 32(631.2) 33(630.4) 34(636.3) 35(668.0) 36(655.0) 37(665.9) 38(666.4) 39(665.5) 40(664.6) 41(660.2) 42(648.2) 43(650.2) 44(674.9) 45(664.8) 46(652.4) 47(648.9) 48(651.7) 49(648.2) 50(668.0) 51(658.8) 52(662.8) 53(654.2) 54(653.3) 55(649.8) 56(640.5) 57(643.6) 58(644.3) 59(638.7) 60(642.1) 61(634.7) 62(630.5) 63(643.2) 64(636.0) 65(629.2) 66(625.8) 67(617.8) 68(618.7) 69(614.9) 70(609.7) 71(611.8) 72(609.1) 73(601.9) 74(597.0) 75(593.6) 76(592.9) 77(594.6) 78(601.7) 79(600.8) 80(597.8) 81(595.0) 82(589.3) 83(584.4) 84(592.0) 85(588.9) 86(596.5) 87(590.6) 88(588.4) 89(586.3) 90(598.1) 91(594.9) 92(591.0) 93(587.9) 94(582.5) 95(578.8) 96(589.3) 97(585.6) 98(586.8) 99(588.0)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=300,depth=50,par=2)= 587.96002 44.03948 ( 74.55 secs 1475 decisions)
+stats: policy=uct(width=300,horizon=50,par=2,random-ties=false)
+stats: decisions=1475
+stats: policy=random()
+stats: decisions=10423217
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 400 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1192.0) 1(871.0) 2(633.7) 3(583.8) 4(549.8) 5(575.5) 6(549.9) 7(616.1) 8(578.4) 9(564.9) 10(535.6) 11(562.2) 12(576.3) 13(568.7) 14(567.8) 15(556.6) 16(537.5) 17(555.8) 18(598.7) 19(617.2) 20(596.0) 21(618.1) 22(602.1) 23(605.5) 24(587.8) 25(615.1) 26(625.0) 27(613.0) 28(597.4) 29(619.2) 30(637.7) 31(659.2) 32(670.1) 33(652.7) 34(652.6) 35(655.6) 36(643.5) 37(645.6) 38(637.4) 39(628.9) 40(621.6) 41(641.0) 42(644.5) 43(632.3) 44(639.2) 45(633.4) 46(630.4) 47(654.9) 48(652.4) 49(653.0) 50(644.1) 51(640.4) 52(630.6) 53(631.3) 54(635.8) 55(628.7) 56(633.6) 57(626.7) 58(621.4) 59(623.8) 60(625.8) 61(619.8) 62(623.3) 63(628.3) 64(635.3) 65(637.5) 66(634.2) 67(627.2) 68(636.8) 69(635.3) 70(631.5) 71(626.0) 72(624.0) 73(619.9) 74(633.7) 75(627.8) 76(628.5) 77(639.9) 78(645.7) 79(640.5) 80(642.6) 81(648.1) 82(643.4) 83(642.9) 84(645.0) 85(639.2) 86(633.0) 87(627.8) 88(622.1) 89(622.7) 90(617.5) 91(622.3) 92(620.8) 93(621.2) 94(619.7) 95(616.7) 96(618.8) 97(619.4) 98(614.1) 99(609.7)
+max-branching=256
+avg-branching=17.3
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=400,depth=50,par=2)= 609.66998 40.40175 ( 106.85 secs 1567 decisions)
+stats: policy=uct(width=400,horizon=50,par=2,random-ties=false)
+stats: decisions=1567
+stats: policy=random()
+stats: decisions=14867699
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 600 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1058.0) 1(725.0) 2(1012.7) 3(1103.2) 4(970.6) 5(887.0) 6(800.1) 7(726.4) 8(680.3) 9(637.8) 10(615.5) 11(596.8) 12(595.8) 13(592.9) 14(574.3) 15(557.1) 16(576.8) 17(574.6) 18(553.9) 19(538.1) 20(558.7) 21(542.6) 22(538.3) 23(530.8) 24(514.3) 25(499.2) 26(493.6) 27(479.1) 28(468.9) 29(472.4) 30(459.7) 31(457.4) 32(456.7) 33(450.9) 34(449.8) 35(443.1) 36(459.2) 37(450.4) 38(443.8) 39(447.5) 40(455.4) 41(450.5) 42(442.5) 43(434.2) 44(438.3) 45(431.3) 46(442.7) 47(443.9) 48(446.9) 49(454.7) 50(450.3) 51(460.4) 52(457.6) 53(451.9) 54(451.3) 55(457.2) 56(450.5) 57(463.0) 58(465.2) 59(469.3) 60(465.4) 61(459.2) 62(459.1) 63(458.2) 64(455.1) 65(449.4) 66(446.5) 67(464.2) 68(463.6) 69(463.3) 70(459.3) 71(462.6) 72(459.0) 73(454.6) 74(457.9) 75(455.4) 76(463.1) 77(458.8) 78(454.9) 79(458.5) 80(460.9) 81(463.2) 82(459.1) 83(456.8) 84(460.8) 85(467.8) 86(467.3) 87(465.1) 88(462.1) 89(459.1) 90(454.9) 91(452.7) 92(454.3) 93(466.2) 94(462.1) 95(460.4) 96(456.5) 97(455.9) 98(456.7) 99(454.0)
+max-branching=256
+avg-branching=16.6
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=600,depth=50,par=2)= 454.01001 35.69123 ( 135.80 secs 1307 decisions)
+stats: policy=uct(width=600,horizon=50,par=2,random-ties=false)
+stats: decisions=1307
+stats: policy=random()
+stats: decisions=18505957
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 800 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1063.0) 1(826.5) 2(767.7) 3(679.5) 4(606.6) 5(594.7) 6(524.9) 7(493.8) 8(469.8) 9(470.8) 10(438.9) 11(421.8) 12(406.7) 13(409.2) 14(387.2) 15(367.9) 16(383.5) 17(366.6) 18(365.7) 19(358.7) 20(371.0) 21(408.7) 22(417.8) 23(414.5) 24(426.6) 25(426.0) 26(415.8) 27(412.2) 28(400.7) 29(390.0) 30(402.6) 31(416.4) 32(434.2) 33(428.9) 34(453.5) 35(445.5) 36(459.1) 37(454.1) 38(450.6) 39(467.4) 40(473.3) 41(476.4) 42(469.8) 43(476.3) 44(478.2) 45(472.2) 46(477.8) 47(479.4) 48(483.4) 49(481.1) 50(483.3) 51(475.5) 52(481.3) 53(482.3) 54(483.2) 55(488.6) 56(483.8) 57(486.3) 58(484.8) 59(483.8) 60(495.0) 61(493.2) 62(495.3) 63(489.5) 64(485.4) 65(492.3) 66(489.9) 67(485.3) 68(479.4) 69(476.1) 70(470.8) 71(468.1) 72(462.8) 73(467.7) 74(464.8) 75(463.8) 76(463.5) 77(462.1) 78(458.6) 79(455.7) 80(460.0) 81(458.6) 82(456.3) 83(467.1) 84(473.1) 85(474.8) 86(477.9) 87(476.2) 88(481.4) 89(495.7) 90(491.8) 91(487.6) 92(484.6) 93(481.2) 94(480.7) 95(478.0) 96(475.9) 97(472.1) 98(473.1) 99(473.9)
+max-branching=256
+avg-branching=16.5
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=800,depth=50,par=2)= 473.92999 33.87186 ( 188.94 secs 1401 decisions)
+stats: policy=uct(width=800,horizon=50,par=2,random-ties=false)
+stats: decisions=1401
+stats: policy=random()
+stats: decisions=26052467
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 1000 50 2
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(915.0) 1(751.0) 2(597.0) 3(545.2) 4(476.4) 5(536.7) 6(502.1) 7(522.8) 8(476.4) 9(465.3) 10(440.2) 11(410.1) 12(489.2) 13(480.8) 14(471.2) 15(508.3) 16(603.1) 17(637.9) 18(629.3) 19(608.5) 20(584.6) 21(575.8) 22(583.6) 23(590.2) 24(577.8) 25(620.1) 26(621.3) 27(615.2) 28(596.7) 29(627.8) 30(610.1) 31(594.8) 32(583.4) 33(588.8) 34(578.1) 35(569.6) 36(557.1) 37(551.1) 38(545.1) 39(556.8) 40(546.2) 41(535.1) 42(532.0) 43(547.3) 44(538.1) 45(548.2) 46(546.3) 47(538.1) 48(545.2) 49(541.0) 50(533.7) 51(540.1) 52(535.4) 53(527.7) 54(522.6) 55(520.7) 56(515.3) 57(520.0) 58(515.3) 59(520.9) 60(513.7) 61(509.5) 62(509.9) 63(507.7) 64(502.2) 65(499.4) 66(493.1) 67(504.6) 68(499.8) 69(493.8) 70(491.7) 71(487.4) 72(501.1) 73(496.7) 74(495.1) 75(490.7) 76(486.8) 77(486.8) 78(488.5) 79(485.5) 80(497.5) 81(498.8) 82(497.0) 83(492.0) 84(490.0) 85(485.2) 86(481.6) 87(502.5) 88(500.5) 89(503.1) 90(498.4) 91(496.3) 92(494.1) 93(489.7) 94(487.2) 95(486.7) 96(485.9) 97(485.1) 98(481.0) 99(479.5)
+max-branching=256
+avg-branching=16.1
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=1000,depth=50,par=2)= 479.47000 45.59781 ( 244.25 secs 1449 decisions)
+stats: policy=uct(width=1000,horizon=50,par=2,random-ties=false)
+stats: decisions=1449
+stats: policy=random()
+stats: decisions=32673655
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 50 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1445.0) 1(1454.0) 2(1721.0) 3(1391.5) 4(1213.8) 5(1095.7) 6(985.7) 7(977.5) 8(899.7) 9(826.7) 10(789.4) 11(805.9) 12(795.0) 13(826.9) 14(791.3) 15(856.8) 16(841.7) 17(865.4) 18(911.1) 19(887.0) 20(860.0) 21(880.8) 22(938.2) 23(909.1) 24(949.7) 25(936.2) 26(913.6) 27(889.5) 28(863.0) 29(897.5) 30(933.4) 31(908.3) 32(916.1) 33(928.4) 34(963.5) 35(973.4) 36(952.5) 37(964.9) 38(948.3) 39(951.2) 40(952.8) 41(944.0) 42(942.6) 43(948.5) 44(942.7) 45(928.1) 46(943.8) 47(940.2) 48(958.2) 49(948.9) 50(953.9) 51(952.5) 52(965.1) 53(959.1) 54(968.0) 55(985.8) 56(996.5) 57(999.5) 58(1012.3) 59(1013.8) 60(1006.6) 61(1015.2) 62(1025.0) 63(1023.2) 64(1020.0) 65(1015.9) 66(1013.7) 67(1011.8) 68(1000.6) 69(1003.6) 70(1012.1) 71(1013.2) 72(1013.5) 73(1019.4) 74(1009.0) 75(998.2) 76(993.3) 77(994.7) 78(1018.7) 79(1011.5) 80(1016.7) 81(1043.1) 82(1038.6) 83(1036.7) 84(1053.8) 85(1059.5) 86(1058.0) 87(1070.9) 88(1087.9) 89(1094.9) 90(1101.6) 91(1110.9) 92(1106.7) 93(1103.6) 94(1101.7) 95(1102.4) 96(1101.4) 97(1094.7) 98(1102.0) 99(1099.2)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=50,depth=50,par=3)= 1099.19995 67.18791 ( 15.32 secs 1924 decisions)
+stats: policy=uct(width=50,horizon=50,par=3,random-ties=false)
+stats: decisions=1924
+stats: policy=random()
+stats: decisions=2157841
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 100 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1745.0) 1(1661.0) 2(1304.0) 3(1090.5) 4(935.0) 5(843.2) 6(816.3) 7(750.0) 8(711.1) 9(759.9) 10(743.5) 11(788.9) 12(763.1) 13(841.8) 14(809.8) 15(765.8) 16(759.4) 17(769.7) 18(813.4) 19(826.7) 20(812.5) 21(783.8) 22(832.9) 23(909.1) 24(937.8) 25(929.0) 26(926.7) 27(954.8) 28(937.4) 29(914.7) 30(907.1) 31(884.5) 32(862.6) 33(862.2) 34(867.9) 35(861.8) 36(844.5) 37(849.5) 38(858.3) 39(860.2) 40(843.8) 41(841.5) 42(876.5) 43(871.0) 44(860.5) 45(884.1) 46(887.1) 47(877.1) 48(862.6) 49(855.2) 50(863.9) 51(849.6) 52(839.0) 53(835.8) 54(832.0) 55(821.8) 56(824.2) 57(824.0) 58(814.3) 59(827.2) 60(833.8) 61(833.1) 62(837.8) 63(858.5) 64(863.0) 65(861.1) 66(856.7) 67(871.7) 68(871.6) 69(874.2) 70(867.8) 71(867.9) 72(876.0) 73(869.5) 74(866.7) 75(865.8) 76(863.2) 77(865.8) 78(863.8) 79(858.8) 80(860.8) 81(862.1) 82(864.2) 83(856.1) 84(854.6) 85(846.0) 86(845.9) 87(842.1) 88(835.3) 89(839.1) 90(830.8) 91(822.6) 92(816.6) 93(822.0) 94(815.3) 95(807.7) 96(804.9) 97(812.4) 98(809.2) 99(814.1)
+max-branching=256
+avg-branching=17.8
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=100,depth=50,par=3)= 814.09003 56.18440 ( 27.89 secs 1670 decisions)
+stats: policy=uct(width=100,horizon=50,par=3,random-ties=false)
+stats: decisions=1670
+stats: policy=random()
+stats: decisions=3929167
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 200 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1554.0) 1(915.5) 2(808.7) 3(706.8) 4(613.0) 5(591.3) 6(727.3) 7(651.6) 8(778.8) 9(765.0) 10(706.6) 11(714.5) 12(747.8) 13(790.5) 14(833.6) 15(811.9) 16(801.0) 17(775.2) 18(745.8) 19(767.2) 20(753.1) 21(739.4) 22(729.9) 23(736.4) 24(765.2) 25(762.3) 26(761.8) 27(738.5) 28(741.5) 29(774.3) 30(788.2) 31(767.3) 32(766.8) 33(820.7) 34(815.8) 35(800.5) 36(781.0) 37(765.2) 38(752.6) 39(735.7) 40(739.0) 41(738.8) 42(742.5) 43(777.4) 44(801.3) 45(792.9) 46(788.0) 47(779.2) 48(769.1) 49(767.4) 50(760.5) 51(756.7) 52(743.9) 53(741.3) 54(745.1) 55(742.1) 56(737.9) 57(734.1) 58(748.1) 59(741.1) 60(743.1) 61(756.7) 62(770.0) 63(762.8) 64(755.3) 65(757.1) 66(755.2) 67(751.6) 68(745.5) 69(739.0) 70(733.2) 71(730.3) 72(728.9) 73(728.2) 74(724.0) 75(718.0) 76(716.8) 77(710.1) 78(702.2) 79(700.3) 80(698.0) 81(695.9) 82(690.7) 83(689.4) 84(698.9) 85(699.8) 86(704.7) 87(709.6) 88(706.7) 89(707.8) 90(705.1) 91(702.8) 92(703.3) 93(698.3) 94(700.1) 95(703.9) 96(697.4) 97(693.9) 98(690.7) 99(698.6)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=200,depth=50,par=3)= 698.62000 51.23237 ( 54.76 secs 1634 decisions)
+stats: policy=uct(width=200,horizon=50,par=3,random-ties=false)
+stats: decisions=1634
+stats: policy=random()
+stats: decisions=7607814
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 300 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1511.0) 1(931.0) 2(879.3) 3(838.8) 4(836.0) 5(738.3) 6(669.7) 7(595.9) 8(573.1) 9(621.8) 10(582.2) 11(566.7) 12(563.8) 13(555.4) 14(536.2) 15(593.4) 16(609.0) 17(602.1) 18(606.9) 19(586.0) 20(571.0) 21(573.0) 22(558.2) 23(542.1) 24(555.8) 25(572.8) 26(559.5) 27(555.6) 28(578.4) 29(613.9) 30(608.9) 31(620.5) 32(631.2) 33(630.4) 34(635.4) 35(665.2) 36(675.8) 37(664.6) 38(657.6) 39(647.0) 40(636.2) 41(639.4) 42(630.0) 43(643.8) 44(632.3) 45(649.8) 46(661.7) 47(668.8) 48(672.8) 49(661.0) 50(667.7) 51(658.1) 52(668.5) 53(659.1) 54(649.2) 55(653.3) 56(651.7) 57(644.8) 58(647.7) 59(656.1) 60(651.8) 61(666.3) 62(660.4) 63(667.9) 64(672.1) 65(669.5) 66(676.1) 67(677.4) 68(678.6) 69(678.1) 70(679.5) 71(673.3) 72(672.1) 73(675.9) 74(670.9) 75(679.1) 76(681.3) 77(673.9) 78(669.3) 79(669.5) 80(667.6) 81(671.2) 82(668.5) 83(662.3) 84(658.5) 85(655.6) 86(652.4) 87(645.9) 88(642.2) 89(640.2) 90(639.9) 91(637.9) 92(649.0) 93(655.3) 94(656.2) 95(664.2) 96(662.9) 97(659.2) 98(660.2) 99(663.6)
+max-branching=256
+avg-branching=17.3
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=300,depth=50,par=3)= 663.59003 42.57159 ( 81.67 secs 1590 decisions)
+stats: policy=uct(width=300,horizon=50,par=3,random-ties=false)
+stats: decisions=1590
+stats: policy=random()
+stats: decisions=11272236
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 400 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(937.0) 1(972.5) 2(714.0) 3(628.5) 4(526.4) 5(571.8) 6(518.7) 7(555.1) 8(641.2) 9(661.9) 10(641.5) 11(624.2) 12(597.7) 13(588.8) 14(557.4) 15(553.1) 16(538.2) 17(543.9) 18(531.3) 19(550.8) 20(537.6) 21(516.7) 22(529.3) 23(538.4) 24(529.0) 25(531.7) 26(524.6) 27(514.4) 28(518.3) 29(506.6) 30(528.1) 31(558.0) 32(572.4) 33(583.5) 34(626.1) 35(620.8) 36(609.5) 37(608.7) 38(623.4) 39(618.0) 40(625.8) 41(625.4) 42(617.4) 43(610.5) 44(612.1) 45(613.7) 46(615.3) 47(609.4) 48(606.5) 49(601.2) 50(596.7) 51(594.5) 52(604.7) 53(617.4) 54(608.7) 55(615.6) 56(606.7) 57(598.6) 58(589.8) 59(585.8) 60(579.3) 61(571.3) 62(580.5) 63(579.4) 64(580.6) 65(577.9) 66(570.4) 67(565.9) 68(570.0) 69(563.0) 70(575.9) 71(571.9) 72(572.7) 73(576.8) 74(577.1) 75(573.4) 76(578.5) 77(576.3) 78(576.6) 79(573.0) 80(568.5) 81(575.2) 82(570.8) 83(567.8) 84(572.5) 85(567.8) 86(567.3) 87(565.6) 88(564.3) 89(559.9) 90(555.7) 91(560.3) 92(557.0) 93(554.3) 94(554.1) 95(554.1) 96(555.5) 97(561.7) 98(557.2) 99(563.7)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=400,depth=50,par=3)= 563.69000 39.34312 ( 102.69 secs 1498 decisions)
+stats: policy=uct(width=400,horizon=50,par=3,random-ties=false)
+stats: decisions=1498
+stats: policy=random()
+stats: decisions=14042487
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 600 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1058.0) 1(725.0) 2(1012.7) 3(1103.2) 4(970.6) 5(887.0) 6(800.1) 7(726.4) 8(680.3) 9(637.8) 10(615.5) 11(596.8) 12(595.8) 13(592.9) 14(574.3) 15(557.1) 16(576.8) 17(574.6) 18(553.9) 19(538.1) 20(558.7) 21(542.6) 22(538.3) 23(530.8) 24(514.3) 25(499.2) 26(493.6) 27(479.1) 28(468.9) 29(472.4) 30(459.7) 31(457.4) 32(456.7) 33(450.9) 34(449.8) 35(443.1) 36(459.2) 37(450.4) 38(443.8) 39(447.5) 40(455.4) 41(450.5) 42(442.5) 43(434.2) 44(438.3) 45(431.3) 46(429.3) 47(423.8) 48(419.1) 49(417.6) 50(420.5) 51(435.3) 52(429.4) 53(427.5) 54(436.9) 55(435.9) 56(441.0) 57(442.8) 58(440.1) 59(435.5) 60(430.3) 61(425.3) 62(422.6) 63(426.7) 64(433.6) 65(432.3) 66(429.8) 67(430.1) 68(426.0) 69(429.0) 70(430.6) 71(439.6) 72(447.5) 73(448.7) 74(444.3) 75(451.0) 76(452.0) 77(449.9) 78(447.1) 79(447.9) 80(451.9) 81(448.8) 82(450.0) 83(449.0) 84(446.9) 85(449.3) 86(451.6) 87(448.1) 88(445.5) 89(452.9) 90(455.6) 91(458.9) 92(455.3) 93(452.9) 94(457.2) 95(459.9) 96(457.3) 97(459.0) 98(458.1) 99(455.8)
+max-branching=256
+avg-branching=16.6
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=600,depth=50,par=3)= 455.82001 31.79969 ( 141.30 secs 1328 decisions)
+stats: policy=uct(width=600,horizon=50,par=3,random-ties=false)
+stats: decisions=1328
+stats: policy=random()
+stats: decisions=18977492
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 800 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1352.0) 1(1113.0) 2(812.0) 3(831.0) 4(814.0) 5(774.0) 6(745.3) 7(688.1) 8(620.4) 9(578.8) 10(554.8) 11(555.8) 12(554.4) 13(578.6) 14(606.2) 15(640.4) 16(623.7) 17(595.2) 18(573.0) 19(566.2) 20(556.0) 21(559.4) 22(538.7) 23(529.0) 24(543.9) 25(548.8) 26(538.8) 27(574.5) 28(569.3) 29(555.7) 30(545.3) 31(533.2) 32(543.3) 33(533.6) 34(552.5) 35(552.9) 36(560.9) 37(579.0) 38(569.1) 39(560.7) 40(555.5) 41(549.8) 42(541.8) 43(549.7) 44(559.6) 45(554.7) 46(544.6) 47(536.6) 48(529.0) 49(520.6) 50(515.1) 51(512.8) 52(514.2) 53(506.8) 54(505.1) 55(497.9) 56(494.4) 57(498.2) 58(503.1) 59(496.4) 60(490.8) 61(488.9) 62(482.5) 63(476.9) 64(473.7) 65(467.8) 66(472.4) 67(466.6) 68(468.1) 69(487.4) 70(484.8) 71(486.7) 72(488.2) 73(483.6) 74(487.0) 75(485.6) 76(491.9) 77(489.2) 78(494.4) 79(495.1) 80(491.9) 81(488.5) 82(484.9) 83(481.1) 84(496.3) 85(496.9) 86(497.7) 87(500.1) 88(497.2) 89(503.8) 90(502.1) 91(501.5) 92(499.4) 93(496.4) 94(497.4) 95(499.5) 96(497.5) 97(499.6) 98(496.4) 99(492.6)
+max-branching=256
+avg-branching=16.6
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=800,depth=50,par=3)= 492.63000 38.08182 ( 198.02 secs 1450 decisions)
+stats: policy=uct(width=800,horizon=50,par=3,random-ties=false)
+stats: decisions=1450
+stats: policy=random()
+stats: decisions=26650450
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 1000 50 3
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1383.0) 1(731.0) 2(856.3) 3(733.8) 4(602.8) 5(540.3) 6(665.1) 7(686.8) 8(626.6) 9(574.5) 10(603.2) 11(640.0) 12(657.1) 13(618.6) 14(582.6) 15(551.1) 16(533.5) 17(580.4) 18(574.9) 19(554.3) 20(540.8) 21(533.7) 22(516.6) 23(514.9) 24(498.5) 25(484.8) 26(472.4) 27(471.9) 28(473.1) 29(465.0) 30(457.2) 31(449.8) 32(439.7) 33(436.9) 34(430.7) 35(431.1) 36(437.5) 37(444.9) 38(436.8) 39(429.0) 40(437.5) 41(433.0) 42(428.0) 43(420.7) 44(415.2) 45(436.0) 46(450.4) 47(448.4) 48(448.4) 49(467.4) 50(466.7) 51(467.2) 52(463.2) 53(460.1) 54(456.0) 55(450.4) 56(446.1) 57(445.2) 58(443.7) 59(451.1) 60(445.0) 61(451.8) 62(451.8) 63(452.7) 64(449.8) 65(445.5) 66(451.7) 67(447.2) 68(450.6) 69(455.5) 70(461.0) 71(458.9) 72(456.5) 73(455.8) 74(452.2) 75(454.6) 76(450.2) 77(453.6) 78(457.1) 79(453.5) 80(451.3) 81(446.8) 82(448.4) 83(446.6) 84(450.4) 85(446.0) 86(442.4) 87(451.0) 88(450.5) 89(447.7) 90(445.2) 91(443.0) 92(445.2) 93(453.7) 94(462.3) 95(461.4) 96(460.5) 97(459.7) 98(457.4) 99(465.9)
+max-branching=256
+avg-branching=16.1
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=1000,depth=50,par=3)= 465.85999 37.87315 ( 240.34 secs 1414 decisions)
+stats: policy=uct(width=1000,horizon=50,par=3,random-ties=false)
+stats: decisions=1414
+stats: policy=random()
+stats: decisions=32111140
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 50 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1445.0) 1(1454.0) 2(1721.0) 3(1391.5) 4(1213.8) 5(1095.7) 6(985.7) 7(977.5) 8(899.7) 9(826.7) 10(789.4) 11(805.9) 12(795.0) 13(826.9) 14(791.3) 15(856.8) 16(841.7) 17(865.4) 18(911.1) 19(887.0) 20(860.0) 21(880.8) 22(938.2) 23(909.1) 24(949.7) 25(936.2) 26(913.6) 27(889.5) 28(863.0) 29(897.5) 30(933.4) 31(908.3) 32(916.1) 33(928.4) 34(963.5) 35(973.4) 36(952.5) 37(964.9) 38(948.3) 39(951.2) 40(952.8) 41(944.0) 42(942.6) 43(948.5) 44(942.7) 45(928.1) 46(943.8) 47(940.2) 48(958.2) 49(948.9) 50(953.9) 51(952.5) 52(965.1) 53(959.1) 54(968.0) 55(985.8) 56(996.5) 57(999.5) 58(1012.3) 59(1013.8) 60(1006.6) 61(1015.2) 62(1025.0) 63(1023.2) 64(1020.0) 65(1015.9) 66(1013.7) 67(1011.8) 68(1000.6) 69(1003.6) 70(1012.1) 71(1013.2) 72(1013.5) 73(1019.4) 74(1009.0) 75(998.2) 76(993.3) 77(994.7) 78(1018.7) 79(1011.5) 80(1016.7) 81(1043.1) 82(1038.6) 83(1036.7) 84(1053.8) 85(1059.5) 86(1058.0) 87(1070.9) 88(1087.9) 89(1094.9) 90(1101.6) 91(1110.9) 92(1106.7) 93(1103.6) 94(1101.7) 95(1102.4) 96(1101.4) 97(1094.7) 98(1102.0) 99(1099.2)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=50,depth=50,par=4)= 1099.19995 67.18791 ( 15.43 secs 1924 decisions)
+stats: policy=uct(width=50,horizon=50,par=4,random-ties=false)
+stats: decisions=1924
+stats: policy=random()
+stats: decisions=2157841
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 100 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1393.0) 1(757.5) 2(867.7) 3(832.8) 4(704.2) 5(696.3) 6(645.1) 7(619.1) 8(559.1) 9(562.8) 10(518.8) 11(536.8) 12(514.0) 13(495.2) 14(468.5) 15(490.8) 16(474.6) 17(510.4) 18(583.4) 19(590.5) 20(574.0) 21(602.5) 22(635.5) 23(645.3) 24(661.1) 25(656.5) 26(639.7) 27(694.9) 28(673.7) 29(661.3) 30(662.3) 31(695.5) 32(695.0) 33(709.2) 34(716.9) 35(731.4) 36(713.8) 37(718.5) 38(725.8) 39(742.0) 40(745.8) 41(756.2) 42(761.2) 43(763.9) 44(786.8) 45(798.5) 46(797.1) 47(785.0) 48(772.8) 49(765.5) 50(755.0) 51(751.8) 52(754.3) 53(745.0) 54(744.3) 55(738.6) 56(746.1) 57(739.6) 58(739.0) 59(754.6) 60(774.9) 61(783.2) 62(817.4) 63(819.6) 64(828.2) 65(831.1) 66(824.3) 67(821.1) 68(817.4) 69(815.8) 70(820.0) 71(821.6) 72(811.9) 73(808.1) 74(812.3) 75(809.1) 76(823.1) 77(820.8) 78(819.4) 79(821.5) 80(815.8) 81(806.8) 82(811.6) 83(811.7) 84(805.7) 85(812.7) 86(817.3) 87(816.4) 88(818.2) 89(816.1) 90(810.5) 91(827.4) 92(832.5) 93(825.7) 94(820.1) 95(815.6) 96(812.9) 97(826.5) 98(825.1) 99(824.0)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=100,depth=50,par=4)= 823.96997 57.26042 ( 28.59 secs 1667 decisions)
+stats: policy=uct(width=100,horizon=50,par=4,random-ties=false)
+stats: decisions=1667
+stats: policy=random()
+stats: decisions=3968985
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 200 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1847.0) 1(1258.0) 2(1192.3) 3(1304.8) 4(1169.8) 5(1002.0) 6(881.9) 7(834.8) 8(780.2) 9(710.1) 10(702.4) 11(702.3) 12(676.8) 13(671.1) 14(688.9) 15(680.5) 16(668.4) 17(654.8) 18(677.8) 19(659.5) 20(663.5) 21(647.8) 22(626.0) 23(666.8) 24(653.8) 25(687.9) 26(681.8) 27(683.6) 28(674.7) 29(685.5) 30(679.2) 31(687.0) 32(669.4) 33(670.7) 34(667.7) 35(664.8) 36(664.9) 37(668.7) 38(679.1) 39(684.1) 40(681.2) 41(669.4) 42(679.8) 43(688.4) 44(675.3) 45(695.8) 46(691.7) 47(680.8) 48(678.5) 49(683.9) 50(680.3) 51(675.7) 52(681.3) 53(671.4) 54(672.3) 55(662.3) 56(653.5) 57(645.7) 58(658.0) 59(649.0) 60(648.2) 61(658.1) 62(660.5) 63(653.9) 64(658.2) 65(653.7) 66(653.4) 67(646.9) 68(651.6) 69(649.9) 70(647.2) 71(657.5) 72(661.2) 73(662.8) 74(668.8) 75(664.8) 76(657.9) 77(654.5) 78(648.5) 79(647.0) 80(646.8) 81(650.1) 82(651.7) 83(646.1) 84(646.3) 85(641.8) 86(651.7) 87(647.0) 88(651.9) 89(646.1) 90(645.5) 91(653.4) 92(655.2) 93(650.2) 94(647.1) 95(643.5) 96(654.6) 97(653.4) 98(648.3) 99(653.0)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=200,depth=50,par=4)= 652.98999 43.18022 ( 55.42 secs 1587 decisions)
+stats: policy=uct(width=200,horizon=50,par=4,random-ties=false)
+stats: decisions=1587
+stats: policy=random()
+stats: decisions=7490669
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 300 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1511.0) 1(931.0) 2(879.3) 3(838.8) 4(836.0) 5(738.3) 6(669.7) 7(595.9) 8(573.1) 9(621.8) 10(582.2) 11(566.7) 12(563.8) 13(555.4) 14(536.2) 15(593.4) 16(609.0) 17(602.1) 18(606.9) 19(586.0) 20(571.0) 21(573.0) 22(558.2) 23(542.1) 24(555.8) 25(572.8) 26(559.5) 27(555.6) 28(578.4) 29(613.9) 30(608.9) 31(620.5) 32(631.2) 33(630.4) 34(636.3) 35(668.0) 36(655.0) 37(665.9) 38(666.4) 39(665.5) 40(664.6) 41(660.2) 42(648.2) 43(650.2) 44(674.9) 45(664.8) 46(652.4) 47(648.9) 48(651.7) 49(648.2) 50(668.0) 51(658.8) 52(662.8) 53(654.2) 54(653.3) 55(649.8) 56(640.5) 57(643.6) 58(644.3) 59(638.7) 60(642.1) 61(634.7) 62(630.5) 63(643.2) 64(636.0) 65(629.2) 66(625.8) 67(617.8) 68(618.7) 69(614.9) 70(609.7) 71(611.8) 72(609.1) 73(601.9) 74(597.0) 75(593.6) 76(592.9) 77(594.6) 78(601.7) 79(600.8) 80(597.8) 81(595.0) 82(589.3) 83(584.4) 84(592.0) 85(588.9) 86(596.5) 87(590.6) 88(588.4) 89(586.3) 90(598.1) 91(594.9) 92(591.0) 93(587.9) 94(582.5) 95(578.8) 96(589.3) 97(585.6) 98(586.8) 99(588.0)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=300,depth=50,par=4)= 587.96002 44.03948 ( 76.58 secs 1475 decisions)
+stats: policy=uct(width=300,horizon=50,par=4,random-ties=false)
+stats: decisions=1475
+stats: policy=random()
+stats: decisions=10423217
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 400 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1192.0) 1(871.0) 2(633.7) 3(583.8) 4(549.8) 5(575.5) 6(549.9) 7(616.1) 8(578.4) 9(564.9) 10(535.6) 11(562.2) 12(576.3) 13(568.7) 14(567.8) 15(556.6) 16(537.5) 17(555.8) 18(598.7) 19(617.2) 20(596.0) 21(618.1) 22(602.1) 23(605.5) 24(587.8) 25(615.1) 26(625.0) 27(613.0) 28(597.4) 29(619.2) 30(637.7) 31(659.2) 32(670.1) 33(652.7) 34(652.6) 35(655.6) 36(643.5) 37(645.6) 38(637.4) 39(628.9) 40(621.6) 41(641.0) 42(644.5) 43(632.3) 44(639.2) 45(633.4) 46(630.4) 47(654.9) 48(652.4) 49(653.0) 50(644.1) 51(640.4) 52(630.6) 53(631.3) 54(635.8) 55(628.7) 56(633.6) 57(626.7) 58(621.4) 59(623.8) 60(625.8) 61(619.8) 62(623.3) 63(628.3) 64(635.3) 65(637.5) 66(634.2) 67(627.2) 68(636.8) 69(635.3) 70(631.5) 71(626.0) 72(624.0) 73(619.9) 74(633.7) 75(627.8) 76(628.5) 77(639.9) 78(645.7) 79(640.5) 80(642.6) 81(648.1) 82(643.4) 83(642.9) 84(645.0) 85(639.2) 86(633.0) 87(627.8) 88(622.1) 89(622.7) 90(617.5) 91(622.3) 92(620.8) 93(621.2) 94(619.7) 95(616.7) 96(618.8) 97(619.4) 98(614.1) 99(609.7)
+max-branching=256
+avg-branching=17.2
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=400,depth=50,par=4)= 609.66998 40.40175 ( 109.72 secs 1567 decisions)
+stats: policy=uct(width=400,horizon=50,par=4,random-ties=false)
+stats: decisions=1567
+stats: policy=random()
+stats: decisions=14867699
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 600 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1058.0) 1(725.0) 2(1012.7) 3(1103.2) 4(970.6) 5(887.0) 6(800.1) 7(726.4) 8(680.3) 9(637.8) 10(615.5) 11(596.8) 12(595.8) 13(592.9) 14(574.3) 15(557.1) 16(576.8) 17(574.6) 18(553.9) 19(538.1) 20(558.7) 21(542.6) 22(538.3) 23(530.8) 24(514.3) 25(499.2) 26(493.6) 27(479.1) 28(468.9) 29(472.4) 30(459.7) 31(457.4) 32(456.7) 33(450.9) 34(449.8) 35(443.1) 36(459.2) 37(450.4) 38(443.8) 39(447.5) 40(455.4) 41(450.5) 42(442.5) 43(434.2) 44(438.3) 45(431.3) 46(442.7) 47(443.9) 48(446.9) 49(454.7) 50(450.3) 51(460.4) 52(457.6) 53(451.9) 54(451.3) 55(456.5) 56(458.7) 57(459.3) 58(458.4) 59(455.5) 60(457.7) 61(452.9) 62(448.8) 63(450.4) 64(447.4) 65(454.3) 66(469.1) 67(472.4) 68(471.2) 69(467.7) 70(463.3) 71(460.3) 72(455.8) 73(465.3) 74(460.6) 75(461.9) 76(458.5) 77(459.3) 78(461.5) 79(458.5) 80(455.1) 81(457.5) 82(468.9) 83(475.2) 84(492.7) 85(488.8) 86(487.4) 87(483.5) 88(479.7) 89(496.8) 90(497.0) 91(494.0) 92(490.7) 93(491.7) 94(489.8) 95(501.5) 96(497.1) 97(495.7) 98(492.1) 99(495.5)
+max-branching=256
+avg-branching=16.3
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=600,depth=50,par=4)= 495.45001 41.34727 ( 145.91 secs 1396 decisions)
+stats: policy=uct(width=600,horizon=50,par=4,random-ties=false)
+stats: decisions=1396
+stats: policy=random()
+stats: decisions=19638219
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 800 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1063.0) 1(826.5) 2(767.7) 3(679.5) 4(606.6) 5(594.7) 6(524.9) 7(493.8) 8(469.8) 9(470.8) 10(438.9) 11(421.8) 12(406.7) 13(438.5) 14(427.1) 15(452.2) 16(477.4) 17(459.3) 18(442.8) 19(424.6) 20(413.9) 21(441.2) 22(431.5) 23(444.0) 24(445.3) 25(452.5) 26(451.0) 27(437.8) 28(435.0) 29(425.9) 30(434.9) 31(429.4) 32(442.0) 33(437.9) 34(448.8) 35(452.3) 36(449.5) 37(457.4) 38(448.5) 39(458.6) 40(449.4) 41(450.5) 42(459.4) 43(451.7) 44(450.2) 45(451.1) 46(454.0) 47(458.0) 48(452.1) 49(450.1) 50(461.5) 51(455.4) 52(466.5) 53(467.7) 54(472.9) 55(465.9) 56(463.5) 57(461.6) 58(460.4) 59(459.6) 60(454.9) 61(449.5) 62(447.4) 63(442.7) 64(442.5) 65(439.6) 66(441.1) 67(461.1) 68(455.5) 69(458.1) 70(461.1) 71(462.0) 72(467.9) 73(463.2) 74(461.2) 75(461.0) 76(470.5) 77(468.9) 78(469.6) 79(465.9) 80(472.4) 81(476.0) 82(471.7) 83(477.3) 84(475.7) 85(481.1) 86(479.7) 87(475.5) 88(474.9) 89(472.2) 90(468.2) 91(467.0) 92(464.1) 93(461.7) 94(468.9) 95(464.9) 96(467.4) 97(466.2) 98(469.6) 99(466.8)
+max-branching=256
+avg-branching=16.5
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=800,depth=50,par=4)= 466.78000 32.75288 ( 196.26 secs 1390 decisions)
+stats: policy=uct(width=800,horizon=50,par=4,random-ties=false)
+stats: decisions=1390
+stats: policy=random()
+stats: decisions=26096402
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 1000 50 4
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(915.0) 1(751.0) 2(597.0) 3(545.2) 4(476.4) 5(536.7) 6(502.1) 7(522.8) 8(476.4) 9(465.3) 10(440.2) 11(410.1) 12(489.2) 13(480.8) 14(471.2) 15(508.3) 16(603.1) 17(637.9) 18(634.5) 19(610.9) 20(590.0) 21(584.2) 22(568.0) 23(550.3) 24(576.8) 25(578.6) 26(577.3) 27(560.4) 28(559.6) 29(556.6) 30(545.0) 31(539.1) 32(529.8) 33(536.3) 34(544.6) 35(538.9) 36(543.4) 37(533.1) 38(533.9) 39(533.1) 40(540.3) 41(546.7) 42(541.7) 43(542.8) 44(550.0) 45(561.8) 46(555.3) 47(557.9) 48(565.2) 49(573.2) 50(567.4) 51(558.0) 52(549.0) 53(541.0) 54(533.1) 55(545.8) 56(537.6) 57(559.0) 58(563.8) 59(562.2) 60(557.4) 61(549.6) 62(557.1) 63(553.0) 64(547.7) 65(554.3) 66(549.1) 67(550.9) 68(544.4) 69(538.4) 70(537.9) 71(535.9) 72(529.6) 73(529.6) 74(524.7) 75(519.9) 76(515.4) 77(510.9) 78(505.8) 79(501.9) 80(498.5) 81(497.4) 82(493.3) 83(489.1) 84(491.7) 85(489.6) 86(486.5) 87(486.6) 88(487.4) 89(484.5) 90(494.7) 91(495.9) 92(494.3) 93(491.0) 94(487.9) 95(485.8) 96(493.9) 97(490.1) 98(486.8) 99(488.9)
+max-branching=256
+avg-branching=16.1
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=1000,depth=50,par=4)= 488.85001 40.59235 ( 250.05 secs 1446 decisions)
+stats: policy=uct(width=1000,horizon=50,par=4,random-ties=false)
+stats: decisions=1446
+stats: policy=random()
+stats: decisions=32951742
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 50 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(2928.0) 1(2026.5) 2(1797.7) 3(1931.2) 4(1838.4) 5(1737.8) 6(1534.1) 7(1595.0) 8(1568.9) 9(1571.3) 10(1536.6) 11(1462.5) 12(1364.9) 13(1303.6) 14(1317.1) 15(1269.4) 16(1222.8) 17(1243.0) 18(1213.4) 19(1233.8) 20(1208.4) 21(1191.4) 22(1194.4) 23(1154.9) 24(1202.9) 25(1169.6) 26(1155.0) 27(1169.8) 28(1137.3) 29(1109.8) 30(1086.3) 31(1064.0) 32(1064.6) 33(1076.1) 34(1062.1) 35(1058.9) 36(1044.9) 37(1029.7) 38(1027.5) 39(1083.0) 40(1100.5) 41(1092.1) 42(1068.6) 43(1081.0) 44(1072.7) 45(1068.8) 46(1065.4) 47(1049.2) 48(1042.9) 49(1027.3) 50(1032.0) 51(1017.6) 52(1023.8) 53(1027.3) 54(1016.6) 55(1010.1) 56(1042.5) 57(1035.9) 58(1039.6) 59(1035.5) 60(1023.9) 61(1035.4) 62(1062.0) 63(1060.0) 64(1063.0) 65(1053.3) 66(1048.4) 67(1065.8) 68(1057.0) 69(1054.5) 70(1044.8) 71(1051.8) 72(1063.0) 73(1079.9) 74(1070.5) 75(1062.8) 76(1059.8) 77(1057.4) 78(1056.8) 79(1054.7) 80(1056.8) 81(1060.9) 82(1056.7) 83(1049.1) 84(1066.8) 85(1058.5) 86(1055.4) 87(1051.6) 88(1054.3) 89(1058.3) 90(1057.6) 91(1061.6) 92(1062.3) 93(1070.2) 94(1062.3) 95(1053.5) 96(1062.2) 97(1069.2) 98(1069.9) 99(1060.0)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=50,depth=50,par=5)= 1060.02002 69.58379 ( 16.20 secs 1899 decisions)
+stats: policy=uct(width=50,horizon=50,par=5,random-ties=false)
+stats: decisions=1899
+stats: policy=random()
+stats: decisions=2230985
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 100 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1393.0) 1(757.5) 2(867.7) 3(832.8) 4(704.2) 5(696.3) 6(645.1) 7(619.1) 8(559.1) 9(562.8) 10(518.8) 11(536.8) 12(514.0) 13(495.2) 14(468.5) 15(490.8) 16(474.6) 17(510.4) 18(583.4) 19(590.5) 20(574.0) 21(602.5) 22(635.5) 23(645.3) 24(661.1) 25(656.5) 26(639.7) 27(694.9) 28(673.7) 29(661.3) 30(662.3) 31(695.5) 32(695.0) 33(709.2) 34(711.0) 35(714.2) 36(702.9) 37(711.3) 38(740.3) 39(732.1) 40(718.0) 41(714.1) 42(726.3) 43(712.8) 44(707.7) 45(723.8) 46(720.5) 47(744.1) 48(745.9) 49(747.3) 50(740.8) 51(750.1) 52(784.2) 53(775.3) 54(781.2) 55(771.7) 56(763.5) 57(767.3) 58(772.2) 59(767.4) 60(760.3) 61(768.4) 62(786.2) 63(777.2) 64(773.1) 65(777.9) 66(781.6) 67(817.8) 68(840.4) 69(847.6) 70(842.9) 71(837.7) 72(847.9) 73(839.7) 74(837.0) 75(837.2) 76(832.3) 77(838.3) 78(832.0) 79(830.2) 80(828.1) 81(822.0) 82(817.7) 83(823.0) 84(823.4) 85(828.3) 86(834.1) 87(825.6) 88(833.9) 89(835.9) 90(831.7) 91(828.1) 92(839.6) 93(832.6) 94(831.7) 95(831.0) 96(837.0) 97(831.5) 98(834.8) 99(835.7)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=100,depth=50,par=5)= 835.65997 61.15827 ( 28.68 secs 1697 decisions)
+stats: policy=uct(width=100,horizon=50,par=5,random-ties=false)
+stats: decisions=1697
+stats: policy=random()
+stats: decisions=3963103
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 200 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1847.0) 1(1258.0) 2(1192.3) 3(1304.8) 4(1169.8) 5(1002.0) 6(881.9) 7(834.8) 8(780.2) 9(710.1) 10(702.4) 11(702.3) 12(676.8) 13(671.1) 14(688.9) 15(680.5) 16(668.4) 17(654.8) 18(677.8) 19(659.5) 20(663.5) 21(647.8) 22(626.0) 23(666.8) 24(653.8) 25(687.9) 26(681.8) 27(683.6) 28(674.7) 29(685.5) 30(679.2) 31(687.0) 32(669.4) 33(670.7) 34(667.7) 35(664.8) 36(664.9) 37(668.7) 38(679.1) 39(684.1) 40(681.2) 41(669.4) 42(679.8) 43(688.4) 44(675.3) 45(695.8) 46(691.7) 47(680.8) 48(678.5) 49(683.9) 50(680.3) 51(675.7) 52(681.3) 53(671.4) 54(672.3) 55(662.3) 56(653.5) 57(645.7) 58(658.0) 59(649.0) 60(648.2) 61(658.1) 62(660.5) 63(653.9) 64(658.2) 65(653.7) 66(653.4) 67(646.9) 68(651.6) 69(649.9) 70(647.2) 71(657.5) 72(661.2) 73(662.8) 74(668.8) 75(664.8) 76(657.9) 77(654.5) 78(648.5) 79(647.0) 80(646.8) 81(650.1) 82(651.7) 83(646.1) 84(646.3) 85(641.8) 86(651.7) 87(647.0) 88(651.9) 89(646.1) 90(645.5) 91(653.4) 92(655.2) 93(650.2) 94(647.1) 95(643.5) 96(654.6) 97(653.4) 98(648.3) 99(653.0)
+max-branching=256
+avg-branching=17.7
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=200,depth=50,par=5)= 652.98999 43.18022 ( 55.44 secs 1587 decisions)
+stats: policy=uct(width=200,horizon=50,par=5,random-ties=false)
+stats: decisions=1587
+stats: policy=random()
+stats: decisions=7490669
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 300 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1511.0) 1(931.0) 2(879.3) 3(838.8) 4(836.0) 5(738.3) 6(669.7) 7(595.9) 8(573.1) 9(621.8) 10(582.2) 11(566.7) 12(563.8) 13(555.4) 14(536.2) 15(593.4) 16(609.0) 17(602.1) 18(606.9) 19(586.0) 20(571.0) 21(573.0) 22(558.2) 23(542.1) 24(555.8) 25(572.8) 26(559.5) 27(555.6) 28(578.4) 29(613.9) 30(608.9) 31(620.5) 32(631.2) 33(630.4) 34(636.3) 35(668.0) 36(655.0) 37(665.9) 38(666.4) 39(665.5) 40(664.6) 41(660.2) 42(648.2) 43(650.2) 44(667.2) 45(657.5) 46(657.9) 47(645.9) 48(656.9) 49(652.4) 50(642.7) 51(635.3) 52(634.7) 53(641.7) 54(644.1) 55(642.6) 56(648.1) 57(642.7) 58(633.8) 59(624.6) 60(615.6) 61(610.0) 62(613.2) 63(623.2) 64(631.5) 65(629.2) 66(626.7) 67(624.0) 68(623.9) 69(617.9) 70(610.3) 71(608.9) 72(605.9) 73(601.4) 74(601.4) 75(599.9) 76(601.2) 77(595.9) 78(592.5) 79(587.4) 80(585.7) 81(584.2) 82(583.6) 83(579.3) 84(584.6) 85(588.4) 86(594.6) 87(595.1) 88(589.6) 89(598.8) 90(604.1) 91(599.2) 92(601.7) 93(608.0) 94(606.9) 95(611.6) 96(617.5) 97(612.3) 98(612.6) 99(607.5)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=300,depth=50,par=5)= 607.54999 40.72256 ( 78.91 secs 1488 decisions)
+stats: policy=uct(width=300,horizon=50,par=5,random-ties=false)
+stats: decisions=1488
+stats: policy=random()
+stats: decisions=10640070
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 400 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1192.0) 1(871.0) 2(633.7) 3(583.8) 4(549.8) 5(575.5) 6(549.9) 7(616.1) 8(578.4) 9(564.9) 10(535.6) 11(562.2) 12(576.3) 13(568.7) 14(567.8) 15(556.6) 16(537.5) 17(555.8) 18(598.7) 19(617.2) 20(596.0) 21(618.1) 22(602.1) 23(605.5) 24(587.8) 25(615.1) 26(625.0) 27(613.0) 28(597.4) 29(619.2) 30(637.7) 31(659.2) 32(670.1) 33(652.7) 34(652.6) 35(655.6) 36(643.5) 37(645.6) 38(637.4) 39(628.9) 40(621.6) 41(641.0) 42(644.5) 43(632.3) 44(639.2) 45(633.4) 46(630.4) 47(654.9) 48(652.4) 49(653.0) 50(644.1) 51(640.4) 52(630.6) 53(631.3) 54(635.8) 55(628.7) 56(633.6) 57(626.7) 58(621.4) 59(623.8) 60(625.8) 61(619.8) 62(623.3) 63(628.3) 64(635.3) 65(637.5) 66(634.2) 67(627.2) 68(636.8) 69(635.3) 70(631.5) 71(626.0) 72(624.0) 73(619.9) 74(633.7) 75(627.8) 76(628.5) 77(641.9) 78(637.1) 79(636.1) 80(637.0) 81(635.9) 82(633.6) 83(628.3) 84(623.3) 85(622.2) 86(625.2) 87(620.4) 88(614.4) 89(609.7) 90(604.2) 91(600.4) 92(603.6) 93(599.2) 94(595.1) 95(597.4) 96(595.7) 97(591.6) 98(596.2) 99(591.3)
+max-branching=256
+avg-branching=17.3
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=400,depth=50,par=5)= 591.27002 40.69904 ( 109.18 secs 1535 decisions)
+stats: policy=uct(width=400,horizon=50,par=5,random-ties=false)
+stats: decisions=1535
+stats: policy=random()
+stats: decisions=14569154
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 600 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1058.0) 1(849.0) 2(790.3) 3(665.8) 4(567.8) 5(559.2) 6(500.0) 7(565.2) 8(594.4) 9(542.9) 10(517.6) 11(532.7) 12(497.8) 13(495.1) 14(543.4) 15(559.0) 16(561.1) 17(550.7) 18(538.6) 19(543.7) 20(527.0) 21(539.7) 22(538.7) 23(524.1) 24(514.1) 25(498.7) 26(488.0) 27(478.4) 28(467.4) 29(461.3) 30(454.9) 31(471.3) 32(459.6) 33(453.5) 34(457.6) 35(467.5) 36(459.7) 37(452.7) 38(477.4) 39(486.9) 40(492.0) 41(486.1) 42(482.3) 43(478.3) 44(472.2) 45(463.8) 46(477.4) 47(472.8) 48(466.2) 49(462.7) 50(457.6) 51(467.9) 52(477.7) 53(472.4) 54(467.3) 55(463.5) 56(465.6) 57(471.9) 58(467.1) 59(478.2) 60(479.2) 61(476.6) 62(477.0) 63(471.9) 64(474.5) 65(476.0) 66(478.1) 67(479.9) 68(475.5) 69(477.7) 70(474.7) 71(469.9) 72(467.3) 73(463.5) 74(458.4) 75(454.8) 76(457.2) 77(454.9) 78(453.4) 79(450.4) 80(452.4) 81(453.4) 82(452.7) 83(448.3) 84(452.7) 85(453.0) 86(449.9) 87(451.0) 88(449.3) 89(451.2) 90(447.2) 91(445.6) 92(446.1) 93(443.8) 94(448.3) 95(447.0) 96(443.6) 97(452.2) 98(449.8) 99(450.9)
+max-branching=256
+avg-branching=16.5
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=600,depth=50,par=5)= 450.89999 31.70333 ( 143.54 secs 1348 decisions)
+stats: policy=uct(width=600,horizon=50,par=5,random-ties=false)
+stats: decisions=1348
+stats: policy=random()
+stats: decisions=18951155
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 800 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1063.0) 1(826.5) 2(767.7) 3(679.5) 4(606.6) 5(594.7) 6(524.9) 7(493.8) 8(469.8) 9(470.8) 10(438.9) 11(421.8) 12(406.7) 13(409.2) 14(387.2) 15(367.9) 16(383.5) 17(366.6) 18(365.7) 19(358.7) 20(371.0) 21(410.3) 22(402.7) 23(402.2) 24(393.8) 25(381.8) 26(376.8) 27(374.5) 28(369.2) 29(379.2) 30(405.6) 31(408.7) 32(417.4) 33(420.5) 34(421.2) 35(443.6) 36(441.0) 37(434.6) 38(445.1) 39(438.0) 40(444.4) 41(451.6) 42(459.6) 43(453.8) 44(468.6) 45(465.4) 46(469.6) 47(464.8) 48(457.7) 49(458.3) 50(455.2) 51(455.3) 52(450.8) 53(446.6) 54(452.4) 55(445.8) 56(454.9) 57(456.2) 58(466.3) 59(460.3) 60(456.6) 61(455.4) 62(455.9) 63(459.7) 64(454.9) 65(463.0) 66(461.0) 67(470.7) 68(465.0) 69(460.9) 70(459.2) 71(457.8) 72(465.5) 73(463.5) 74(465.5) 75(461.0) 76(462.0) 77(458.3) 78(460.8) 79(458.7) 80(460.8) 81(462.0) 82(457.4) 83(454.4) 84(451.1) 85(448.6) 86(452.6) 87(449.8) 88(449.2) 89(452.3) 90(449.3) 91(446.0) 92(444.0) 93(447.9) 94(455.4) 95(459.0) 96(455.1) 97(451.5) 98(449.2) 99(452.1)
+max-branching=256
+avg-branching=16.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=800,depth=50,par=5)= 452.09000 31.72286 ( 193.54 secs 1345 decisions)
+stats: policy=uct(width=800,horizon=50,par=5,random-ties=false)
+stats: decisions=1345
+stats: policy=random()
+stats: decisions=25374325
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 1000 50 5
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(915.0) 1(751.0) 2(597.0) 3(545.2) 4(476.4) 5(536.7) 6(502.1) 7(522.8) 8(476.4) 9(465.3) 10(440.2) 11(410.1) 12(493.6) 13(507.4) 14(481.5) 15(461.7) 16(443.1) 17(422.8) 18(416.4) 19(416.0) 20(424.5) 21(408.8) 22(397.3) 23(387.6) 24(376.8) 25(376.8) 26(365.8) 27(356.5) 28(352.4) 29(344.2) 30(346.2) 31(338.7) 32(339.5) 33(332.7) 34(325.4) 35(320.6) 36(319.3) 37(314.7) 38(309.7) 39(314.3) 40(328.3) 41(323.9) 42(321.7) 43(325.2) 44(332.1) 45(334.1) 46(338.1) 47(344.2) 48(343.6) 49(339.7) 50(334.5) 51(329.6) 52(329.4) 53(351.1) 54(348.5) 55(344.8) 56(340.2) 57(342.0) 58(338.2) 59(348.4) 60(344.0) 61(341.1) 62(340.2) 63(342.2) 64(347.7) 65(348.0) 66(356.6) 67(353.8) 68(358.0) 69(362.2) 70(374.9) 71(375.4) 72(375.8) 73(371.8) 74(368.3) 75(371.9) 76(371.8) 77(368.0) 78(364.9) 79(361.9) 80(365.2) 81(361.7) 82(365.7) 83(364.2) 84(361.3) 85(365.0) 86(362.0) 87(360.0) 88(359.3) 89(357.3) 90(358.4) 91(361.4) 92(359.3) 93(368.4) 94(366.4) 95(364.1) 96(365.5) 97(368.3) 98(365.7) 99(364.3)
+max-branching=256
+avg-branching=16.8
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=1000,depth=50,par=5)= 364.32001 31.49062 ( 211.38 secs 1194 decisions)
+stats: policy=uct(width=1000,horizon=50,par=5,random-ties=false)
+stats: decisions=1194
+stats: policy=random()
+stats: decisions=27445658
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 50 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1445.0) 1(1454.0) 2(1721.0) 3(1391.5) 4(1213.8) 5(1095.7) 6(985.7) 7(977.5) 8(899.7) 9(826.7) 10(789.4) 11(805.9) 12(795.0) 13(826.9) 14(791.3) 15(856.8) 16(841.7) 17(865.4) 18(911.1) 19(887.0) 20(860.0) 21(880.8) 22(938.2) 23(909.1) 24(949.7) 25(936.2) 26(913.6) 27(889.5) 28(863.0) 29(897.5) 30(933.4) 31(908.3) 32(916.1) 33(928.4) 34(963.5) 35(973.4) 36(952.5) 37(964.9) 38(948.3) 39(951.2) 40(952.8) 41(944.0) 42(942.6) 43(948.5) 44(942.7) 45(928.1) 46(943.8) 47(940.2) 48(958.2) 49(948.9) 50(953.9) 51(952.5) 52(965.1) 53(959.1) 54(968.0) 55(985.8) 56(996.5) 57(999.5) 58(1012.3) 59(1013.8) 60(1006.6) 61(1015.2) 62(1025.0) 63(1023.2) 64(1020.0) 65(1015.9) 66(1013.7) 67(1011.8) 68(1000.6) 69(1003.6) 70(1012.1) 71(1013.2) 72(1013.5) 73(1019.4) 74(1009.0) 75(998.2) 76(993.3) 77(994.7) 78(1018.7) 79(1011.5) 80(1016.7) 81(1043.1) 82(1038.6) 83(1036.7) 84(1053.8) 85(1059.5) 86(1058.0) 87(1070.9) 88(1087.9) 89(1094.9) 90(1101.6) 91(1110.9) 92(1106.7) 93(1103.6) 94(1101.7) 95(1102.4) 96(1101.4) 97(1094.7) 98(1102.0) 99(1099.2)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=50,depth=50,par=6)= 1099.19995 67.18791 ( 15.73 secs 1924 decisions)
+stats: policy=uct(width=50,horizon=50,par=6,random-ties=false)
+stats: decisions=1924
+stats: policy=random()
+stats: decisions=2157841
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 100 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1281.0) 1(1042.0) 2(821.7) 3(842.2) 4(698.2) 5(749.3) 6(706.9) 7(800.2) 8(781.0) 9(725.8) 10(797.0) 11(807.0) 12(823.3) 13(846.1) 14(805.5) 15(835.1) 16(876.4) 17(879.3) 18(845.4) 19(891.2) 20(919.3) 21(903.5) 22(894.3) 23(913.2) 24(893.5) 25(869.0) 26(848.0) 27(827.0) 28(828.7) 29(840.7) 30(841.7) 31(908.7) 32(915.2) 33(906.2) 34(901.4) 35(906.0) 36(896.9) 37(882.8) 38(867.5) 39(879.1) 40(888.1) 41(885.3) 42(870.4) 43(872.3) 44(881.5) 45(886.7) 46(883.5) 47(912.5) 48(929.2) 49(913.2) 50(917.5) 51(906.3) 52(899.7) 53(910.7) 54(904.6) 55(896.9) 56(901.2) 57(890.1) 58(888.3) 59(883.3) 60(877.2) 61(903.6) 62(896.6) 63(892.8) 64(880.8) 65(885.4) 66(886.1) 67(885.7) 68(892.1) 69(881.0) 70(877.2) 71(876.1) 72(867.7) 73(866.4) 74(861.3) 75(866.2) 76(880.1) 77(884.2) 78(876.9) 79(882.2) 80(875.0) 81(869.4) 82(863.0) 83(877.8) 84(877.8) 85(881.6) 86(882.8) 87(886.9) 88(897.5) 89(901.8) 90(907.8) 91(906.7) 92(901.6) 93(897.5) 94(905.4) 95(901.7) 96(901.9) 97(900.7) 98(898.0) 99(903.6)
+max-branching=256
+avg-branching=17.5
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=100,depth=50,par=6)= 903.56000 55.73856 ( 29.86 secs 1793 decisions)
+stats: policy=uct(width=100,horizon=50,par=6,random-ties=false)
+stats: decisions=1793
+stats: policy=random()
+stats: decisions=4073123
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 200 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1554.0) 1(915.5) 2(808.7) 3(706.8) 4(613.0) 5(591.3) 6(727.3) 7(651.6) 8(778.8) 9(765.0) 10(706.6) 11(714.5) 12(747.8) 13(790.5) 14(833.6) 15(811.9) 16(801.0) 17(775.2) 18(745.8) 19(753.6) 20(787.3) 21(809.5) 22(822.2) 23(798.5) 24(796.4) 25(834.2) 26(826.4) 27(806.9) 28(786.4) 29(766.7) 30(766.0) 31(778.9) 32(768.4) 33(775.1) 34(797.5) 35(809.3) 36(790.0) 37(782.1) 38(780.4) 39(766.3) 40(761.1) 41(754.5) 42(757.3) 43(757.1) 44(756.2) 45(751.9) 46(745.2) 47(738.5) 48(741.6) 49(733.7) 50(723.5) 51(729.9) 52(724.9) 53(738.1) 54(732.2) 55(746.6) 56(747.0) 57(745.5) 58(734.2) 59(740.4) 60(758.1) 61(747.6) 62(743.6) 63(748.5) 64(742.4) 65(734.5) 66(737.4) 67(734.0) 68(735.2) 69(742.6) 70(748.1) 71(757.3) 72(748.0) 73(750.9) 74(753.9) 75(749.1) 76(741.6) 77(735.5) 78(732.5) 79(730.6) 80(724.9) 81(719.1) 82(711.4) 83(718.3) 84(712.4) 85(714.7) 86(710.6) 87(706.8) 88(705.4) 89(704.3) 90(712.2) 91(709.3) 92(716.0) 93(714.0) 94(712.1) 95(716.5) 96(722.3) 97(726.9) 98(723.6) 99(719.3)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=200,depth=50,par=6)= 719.31000 46.75449 ( 56.98 secs 1608 decisions)
+stats: policy=uct(width=200,horizon=50,par=6,random-ties=false)
+stats: decisions=1608
+stats: policy=random()
+stats: decisions=7652818
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 300 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1511.0) 1(931.0) 2(879.3) 3(838.8) 4(836.0) 5(738.3) 6(669.7) 7(595.9) 8(573.1) 9(621.8) 10(582.2) 11(566.7) 12(563.8) 13(555.4) 14(536.2) 15(593.4) 16(609.0) 17(602.1) 18(606.9) 19(586.0) 20(571.0) 21(573.0) 22(558.2) 23(542.1) 24(555.8) 25(572.8) 26(559.5) 27(555.6) 28(578.4) 29(613.9) 30(608.9) 31(620.5) 32(631.2) 33(630.4) 34(635.4) 35(665.2) 36(675.8) 37(664.6) 38(657.6) 39(647.0) 40(636.2) 41(639.4) 42(630.0) 43(643.8) 44(632.3) 45(649.8) 46(661.7) 47(668.8) 48(672.8) 49(661.0) 50(667.7) 51(658.1) 52(668.5) 53(659.1) 54(649.2) 55(653.3) 56(651.7) 57(644.8) 58(647.7) 59(656.1) 60(651.8) 61(666.3) 62(660.4) 63(667.9) 64(672.1) 65(669.5) 66(676.1) 67(677.4) 68(678.6) 69(678.1) 70(679.5) 71(673.3) 72(672.1) 73(675.9) 74(670.9) 75(679.1) 76(681.3) 77(673.9) 78(669.3) 79(669.5) 80(667.6) 81(671.2) 82(668.5) 83(662.3) 84(658.5) 85(655.6) 86(652.4) 87(645.9) 88(642.2) 89(640.2) 90(639.9) 91(637.9) 92(649.0) 93(655.3) 94(656.2) 95(664.2) 96(662.9) 97(659.2) 98(660.2) 99(663.6)
+max-branching=256
+avg-branching=17.2
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=300,depth=50,par=6)= 663.59003 42.57159 ( 84.63 secs 1590 decisions)
+stats: policy=uct(width=300,horizon=50,par=6,random-ties=false)
+stats: decisions=1590
+stats: policy=random()
+stats: decisions=11272236
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 400 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(765.0) 1(577.0) 2(420.0) 3(385.8) 4(476.6) 5(414.8) 6(400.4) 7(385.2) 8(457.3) 9(455.7) 10(437.4) 11(430.0) 12(440.6) 13(445.9) 14(421.4) 15(463.9) 16(452.1) 17(441.6) 18(463.6) 19(513.1) 20(507.7) 21(488.3) 22(510.6) 23(492.7) 24(523.8) 25(533.9) 26(529.8) 27(561.8) 28(546.9) 29(539.2) 30(542.9) 31(553.3) 32(563.5) 33(587.9) 34(576.5) 35(590.4) 36(587.4) 37(577.9) 38(578.9) 39(582.2) 40(573.1) 41(579.4) 42(590.9) 43(602.5) 44(607.2) 45(598.7) 46(588.2) 47(582.9) 48(593.3) 49(620.2) 50(616.2) 51(611.1) 52(611.1) 53(601.2) 54(599.6) 55(596.1) 56(596.8) 57(589.6) 58(583.3) 59(589.9) 60(591.8) 61(585.3) 62(580.2) 63(590.6) 64(589.1) 65(581.9) 66(576.3) 67(576.5) 68(577.9) 69(575.1) 70(579.4) 71(589.8) 72(592.0) 73(599.0) 74(594.0) 75(598.1) 76(593.0) 77(590.0) 78(589.3) 79(583.7) 80(578.0) 81(572.3) 82(573.5) 83(576.3) 84(570.4) 85(572.8) 86(571.2) 87(566.8) 88(562.5) 89(560.0) 90(556.4) 91(565.5) 92(561.7) 93(561.0) 94(565.2) 95(564.5) 96(560.0) 97(560.4) 98(558.7) 99(555.1)
+max-branching=256
+avg-branching=17.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=400,depth=50,par=6)= 555.13000 40.18158 ( 105.71 secs 1486 decisions)
+stats: policy=uct(width=400,horizon=50,par=6,random-ties=false)
+stats: decisions=1486
+stats: policy=random()
+stats: decisions=13949367
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 600 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1058.0) 1(725.0) 2(1012.7) 3(1103.2) 4(970.6) 5(887.0) 6(800.1) 7(726.4) 8(680.3) 9(637.8) 10(615.5) 11(596.8) 12(595.8) 13(592.9) 14(574.3) 15(557.1) 16(576.8) 17(574.6) 18(553.9) 19(538.1) 20(558.7) 21(542.6) 22(538.3) 23(530.8) 24(514.3) 25(499.2) 26(493.6) 27(479.1) 28(468.9) 29(472.4) 30(459.7) 31(457.4) 32(456.7) 33(450.9) 34(449.8) 35(443.1) 36(459.2) 37(450.4) 38(443.8) 39(447.5) 40(459.3) 41(460.2) 42(461.8) 43(461.5) 44(457.9) 45(494.7) 46(492.0) 47(489.3) 48(489.4) 49(483.5) 50(477.7) 51(470.0) 52(463.4) 53(459.8) 54(453.9) 55(450.3) 56(461.6) 57(455.7) 58(451.8) 59(453.6) 60(459.4) 61(469.7) 62(464.4) 63(467.7) 64(469.3) 65(477.5) 66(479.9) 67(476.8) 68(471.6) 69(467.5) 70(463.9) 71(459.9) 72(460.0) 73(461.7) 74(459.7) 75(457.1) 76(464.3) 77(461.6) 78(471.5) 79(468.3) 80(474.0) 81(473.5) 82(471.3) 83(476.8) 84(482.0) 85(481.2) 86(479.6) 87(486.9) 88(492.6) 89(496.3) 90(493.2) 91(497.7) 92(498.0) 93(494.6) 94(493.2) 95(490.3) 96(490.3) 97(492.2) 98(496.1) 99(495.5)
+max-branching=256
+avg-branching=16.3
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=600,depth=50,par=6)= 495.45001 37.12235 ( 151.50 secs 1413 decisions)
+stats: policy=uct(width=600,horizon=50,par=6,random-ties=false)
+stats: decisions=1413
+stats: policy=random()
+stats: decisions=19877926
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 800 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1352.0) 1(1113.0) 2(812.0) 3(831.0) 4(769.0) 5(686.7) 6(631.0) 7(594.9) 8(585.0) 9(573.0) 10(528.1) 11(526.1) 12(498.9) 13(532.0) 14(543.1) 15(535.1) 16(516.5) 17(518.8) 18(500.6) 19(489.2) 20(483.0) 21(496.8) 22(486.8) 23(469.8) 24(504.4) 25(502.3) 26(513.0) 27(505.3) 28(514.8) 29(503.1) 30(489.5) 31(476.7) 32(464.6) 33(500.5) 34(494.8) 35(506.5) 36(505.8) 37(495.2) 38(488.2) 39(491.1) 40(488.5) 41(484.9) 42(488.2) 43(488.2) 44(480.8) 45(475.1) 46(467.5) 47(472.4) 48(467.2) 49(463.5) 50(464.5) 51(470.7) 52(465.5) 53(463.0) 54(465.3) 55(463.6) 56(475.5) 57(472.2) 58(478.3) 59(482.0) 60(488.7) 61(484.2) 62(484.3) 63(492.8) 64(487.5) 65(484.8) 66(479.4) 67(473.9) 68(469.8) 69(465.9) 70(461.7) 71(458.0) 72(455.4) 73(453.7) 74(458.2) 75(453.8) 76(449.3) 77(461.4) 78(456.9) 79(452.2) 80(449.5) 81(453.3) 82(450.3) 83(446.5) 84(449.4) 85(448.0) 86(452.0) 87(452.3) 88(448.1) 89(447.7) 90(443.7) 91(449.5) 92(452.0) 93(448.9) 94(453.0) 95(457.8) 96(455.3) 97(452.9) 98(450.4) 99(452.5)
+max-branching=256
+avg-branching=16.4
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=800,depth=50,par=6)= 452.53000 34.57745 ( 190.42 secs 1329 decisions)
+stats: policy=uct(width=800,horizon=50,par=6,random-ties=false)
+stats: decisions=1329
+stats: policy=random()
+stats: decisions=24663950
+Arguments: ./ctp3 -d 0 -f -a 0 -h 0 -t 100 AAAI-graphs/test06_50_T.graph random uct 1000 50 6
+info: #nodes=50, #edges=139, degree=9
+seed=0
+init: #nodes=50, #edges=139, #words-for-nodes=2, #words-for-edges=5
+#trials=100: 0(1092.0) 1(847.0) 2(680.7) 3(588.2) 4(517.4) 5(587.2) 6(530.7) 7(506.8) 8(487.9) 9(482.0) 10(499.0) 11(466.2) 12(461.4) 13(440.8) 14(461.9) 15(437.9) 16(468.9) 17(494.7) 18(505.3) 19(489.6) 20(524.3) 21(504.1) 22(487.3) 23(478.5) 24(464.1) 25(461.2) 26(448.0) 27(442.6) 28(450.1) 29(450.0) 30(452.5) 31(445.6) 32(441.6) 33(433.0) 34(426.1) 35(416.5) 36(409.9) 37(410.6) 38(403.2) 39(397.9) 40(392.5) 41(390.7) 42(385.0) 43(388.0) 44(384.6) 45(388.5) 46(405.7) 47(398.9) 48(394.7) 49(395.3) 50(389.1) 51(395.3) 52(413.5) 53(414.8) 54(418.1) 55(412.9) 56(410.5) 57(405.7) 58(408.3) 59(422.7) 60(419.0) 61(420.0) 62(416.8) 63(426.7) 64(437.2) 65(431.8) 66(446.1) 67(441.1) 68(439.2) 69(434.0) 70(435.4) 71(439.1) 72(442.7) 73(441.7) 74(437.3) 75(452.6) 76(461.1) 77(463.2) 78(459.8) 79(472.2) 80(467.7) 81(467.7) 82(464.4) 83(461.0) 84(460.3) 85(457.2) 86(462.0) 87(462.8) 88(459.3) 89(459.0) 90(456.1) 91(452.4) 92(451.7) 93(450.5) 94(447.0) 95(443.8) 96(444.7) 97(441.5) 98(438.9) 99(436.3)
+max-branching=256
+avg-branching=16.2
+cache: #entries=0, #lookups=0, %hit=-nan
+  item[0]: #entries=0, #buckets=23, max-bucket-size=0
+  item[1]: #entries=0, #buckets=23, max-bucket-size=0
+  item[2]: #entries=0, #buckets=23, max-bucket-size=0
+  item[3]: #entries=0, #buckets=23, max-bucket-size=0
+  item[4]: #entries=0, #buckets=23, max-bucket-size=0
+  item[5]: #entries=0, #buckets=23, max-bucket-size=0
+  item[6]: #entries=0, #buckets=23, max-bucket-size=0
+  item[7]: #entries=0, #buckets=23, max-bucket-size=0
+  item[8]: #entries=0, #buckets=23, max-bucket-size=0
+  item[9]: #entries=0, #buckets=23, max-bucket-size=0
+  item[10]: #entries=0, #buckets=23, max-bucket-size=0
+  item[11]: #entries=0, #buckets=23, max-bucket-size=0
+  item[12]: #entries=0, #buckets=23, max-bucket-size=0
+  item[13]: #entries=0, #buckets=23, max-bucket-size=0
+  item[14]: #entries=0, #buckets=23, max-bucket-size=0
+  item[15]: #entries=0, #buckets=23, max-bucket-size=0
+  item[16]: #entries=0, #buckets=23, max-bucket-size=0
+  item[17]: #entries=0, #buckets=23, max-bucket-size=0
+  item[18]: #entries=0, #buckets=23, max-bucket-size=0
+  item[19]: #entries=0, #buckets=23, max-bucket-size=0
+  item[20]: #entries=0, #buckets=23, max-bucket-size=0
+  item[21]: #entries=0, #buckets=23, max-bucket-size=0
+  item[22]: #entries=0, #buckets=23, max-bucket-size=0
+  item[23]: #entries=0, #buckets=23, max-bucket-size=0
+  item[24]: #entries=0, #buckets=23, max-bucket-size=0
+  item[25]: #entries=0, #buckets=23, max-bucket-size=0
+  item[26]: #entries=0, #buckets=23, max-bucket-size=0
+  item[27]: #entries=0, #buckets=23, max-bucket-size=0
+  item[28]: #entries=0, #buckets=23, max-bucket-size=0
+  item[29]: #entries=0, #buckets=23, max-bucket-size=0
+  item[30]: #entries=0, #buckets=23, max-bucket-size=0
+  item[31]: #entries=0, #buckets=23, max-bucket-size=0
+  item[32]: #entries=0, #buckets=23, max-bucket-size=0
+  item[33]: #entries=0, #buckets=23, max-bucket-size=0
+  item[34]: #entries=0, #buckets=23, max-bucket-size=0
+  item[35]: #entries=0, #buckets=23, max-bucket-size=0
+  item[36]: #entries=0, #buckets=23, max-bucket-size=0
+  item[37]: #entries=0, #buckets=23, max-bucket-size=0
+  item[38]: #entries=0, #buckets=23, max-bucket-size=0
+  item[39]: #entries=0, #buckets=23, max-bucket-size=0
+  item[40]: #entries=0, #buckets=23, max-bucket-size=0
+  item[41]: #entries=0, #buckets=23, max-bucket-size=0
+  item[42]: #entries=0, #buckets=23, max-bucket-size=0
+  item[43]: #entries=0, #buckets=23, max-bucket-size=0
+  item[44]: #entries=0, #buckets=23, max-bucket-size=0
+  item[45]: #entries=0, #buckets=23, max-bucket-size=0
+  item[46]: #entries=0, #buckets=23, max-bucket-size=0
+  item[47]: #entries=0, #buckets=23, max-bucket-size=0
+  item[48]: #entries=0, #buckets=23, max-bucket-size=0
+  item[49]: #entries=0, #buckets=23, max-bucket-size=0
+uct(random,width=1000,depth=50,par=6)= 436.29999 36.81886 ( 236.76 secs 1345 decisions)
+stats: policy=uct(width=1000,horizon=50,par=6,random-ties=false)
+stats: decisions=1345
+stats: policy=random()
+stats: decisions=30838038

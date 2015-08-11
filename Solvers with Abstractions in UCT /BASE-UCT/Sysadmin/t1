@@ -1,0 +1,628 @@
+In file included from ../engine/hash.h:22:0,
+                 from ../engine/problem.h:22,
+                 from ../engine/dispatcher.h:22,
+                 from main.cc:5:
+../engine/utils.h: In function ‘double Utils::my_read_time_in_milli_seconds()’:
+../engine/utils.h:50:9: warning: unused variable ‘i’ [-Wunused-variable]
+main.cc: In function ‘int main(int, const char**)’:
+main.cc:41:9: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h: In instantiation of ‘Problem::action_t Online::Policy::UCT::uct_t<T>::operator()(const T&) const [with T = state_t; Problem::action_t = int]’:
+main.cc:201:1:   required from here
+../engine/uct.h:256:26: warning: unused variable ‘this_decision_time’ [-Wunused-variable]
+../engine/uct.h:262:16: warning: variable ‘start_time’ set but not used [-Wunused-but-set-variable]
+../engine/uct.h:262:27: warning: variable ‘end_time’ set but not used [-Wunused-but-set-variable]
+../engine/uct.h: In instantiation of ‘void Online::Policy::UCT::uct_t<T>::construct_abstract_tree(const T&) const [with T = state_t]’:
+../engine/uct.h:283:18:   required from ‘Problem::action_t Online::Policy::UCT::uct_t<T>::operator()(const T&) const [with T = state_t; Problem::action_t = int]’
+main.cc:201:1:   required from here
+../engine/uct.h:867:17: error: no match for ‘operator=’ in ‘rgit = ((const Online::Policy::UCT::uct_t<state_t>*)this)->Online::Policy::UCT::uct_t<state_t>::abstract_to_ground_.std::map<_Key, _Tp, _Compare, _Alloc>::find<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >((*(const key_type*)(& absRepNode)))’
+../engine/uct.h:867:17: note: candidate is:
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:98:11: note: std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >& std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::operator=(const std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >&)
+/usr/include/c++/4.7/bits/stl_iterator.h:98:11: note:   no known conversion for argument 1 from ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > >}’ to ‘const std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >&’
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: error: no match for ‘operator!=’ in ‘rgit != ((const Online::Policy::UCT::uct_t<state_t>*)this)->Online::Policy::UCT::uct_t<state_t>::abstract_to_ground_.std::map<_Key, _Tp, _Compare, _Alloc>::end<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >()’
+../engine/uct.h:868:17: note: candidates are:
+In file included from /usr/include/c++/4.7/iosfwd:42:0,
+                 from /usr/include/c++/4.7/ios:39,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/postypes.h:223:5: note: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.7/bits/postypes.h:223:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::fpos<_StateT>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:65:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_pair.h:219:5: note: template<class _T1, class _T2> constexpr bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.7/bits/stl_pair.h:219:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::pair<_T1, _T2>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:305:5: note: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:305:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > >}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:355:5: note: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:355:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > >}’ is not derived from ‘const std::reverse_iterator<_IteratorR>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:1045:5: note: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:1045:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:1051:5: note: template<class _Iterator> bool std::operator!=(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:1051:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::move_iterator<_Iterator>’
+In file included from /usr/include/c++/4.7/string:43:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/allocator.h:129:5: note: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.7/bits/allocator.h:129:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::allocator<_T1>’
+In file included from /usr/include/c++/4.7/string:43:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/allocator.h:134:5: note: template<class _Tp> bool std::operator!=(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.7/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::allocator<_Tp1>’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/basic_string.h:2529:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2529:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/basic_string.h:2541:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2541:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   mismatched types ‘const _CharT*’ and ‘std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/basic_string.h:2553:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.7/bits/basic_string.h:2553:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+In file included from /usr/include/c++/4.7/bits/locale_facets.h:50:0,
+                 from /usr/include/c++/4.7/bits/basic_ios.h:39,
+                 from /usr/include/c++/4.7/ios:45,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/streambuf_iterator.h:212:5: note: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.7/bits/streambuf_iterator.h:212:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from main.cc:3:
+/usr/include/c++/4.7/bits/stl_vector.h:1394:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_vector.h:1394:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+In file included from /usr/include/c++/4.7/list:64:0,
+                 from ../engine/algorithm.h:26,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_list.h:283:5: note: template<class _Val> bool std::operator!=(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+/usr/include/c++/4.7/bits/stl_list.h:283:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::_List_iterator<_Tp>’
+In file included from /usr/include/c++/4.7/list:64:0,
+                 from ../engine/algorithm.h:26,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_list.h:1610:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::list<_Tp, _Alloc>&, const std::list<_Tp, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_list.h:1610:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::list<_Tp, _Alloc>’
+In file included from /usr/include/c++/4.7/deque:65:0,
+                 from /usr/include/c++/4.7/queue:61,
+                 from ../engine/algorithm.h:27,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_deque.h:261:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/include/c++/4.7/bits/stl_deque.h:261:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+In file included from /usr/include/c++/4.7/deque:65:0,
+                 from /usr/include/c++/4.7/queue:61,
+                 from ../engine/algorithm.h:27,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_deque.h:268:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/include/c++/4.7/bits/stl_deque.h:268:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::_Deque_iterator<_Tp, _RefL, _PtrL>’
+In file included from /usr/include/c++/4.7/deque:65:0,
+                 from /usr/include/c++/4.7/queue:61,
+                 from ../engine/algorithm.h:27,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_deque.h:1955:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_deque.h:1955:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+In file included from /usr/include/c++/4.7/queue:65:0,
+                 from ../engine/algorithm.h:27,
+                 from ../engine/dispatcher.h:24,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_queue.h:291:5: note: template<class _Tp, class _Seq> bool std::operator!=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+/usr/include/c++/4.7/bits/stl_queue.h:291:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::queue<_Tp, _Seq>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:343:5: note: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m> bool std::operator!=(const std::linear_congruential_engine<_UIntType, __a, __c, __m>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+/usr/include/c++/4.7/bits/random.h:343:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::linear_congruential_engine<_UIntType, __a, __c, __m>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:577:5: note: template<class _UIntType, long unsigned int __w, long unsigned int __n, long unsigned int __m, long unsigned int __r, _UIntType __a, long unsigned int __u, _UIntType __d, long unsigned int __s, _UIntType __b, long unsigned int __t, _UIntType __c, long unsigned int __l, _UIntType __f> bool std::operator!=(const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+/usr/include/c++/4.7/bits/random.h:577:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:776:5: note: template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r> bool std::operator!=(const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+/usr/include/c++/4.7/bits/random.h:776:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:998:5: note: template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r> bool std::operator!=(const std::discard_block_engine<_RandomNumberEngine, __p, __r>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+/usr/include/c++/4.7/bits/random.h:998:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::discard_block_engine<_RandomNumberEngine, __p, __r>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:1194:5: note: template<class _RandomNumberEngine, long unsigned int __w, class _UIntType> bool std::operator!=(const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+/usr/include/c++/4.7/bits/random.h:1194:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:1446:5: note: template<class _RandomNumberEngine, long unsigned int __k> bool std::operator!=(const std::shuffle_order_engine<_RandomNumberEngine, __k>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+/usr/include/c++/4.7/bits/random.h:1446:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::shuffle_order_engine<_RandomNumberEngine, __k>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:1748:5: note: template<class _IntType> bool std::operator!=(const std::uniform_int_distribution<_IntType>&, const std::uniform_int_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:1748:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::uniform_int_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:1929:5: note: template<class _IntType> bool std::operator!=(const std::uniform_real_distribution<_IntType>&, const std::uniform_real_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:1929:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::uniform_real_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:2149:5: note: template<class _RealType> bool std::operator!=(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:2149:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::normal_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:2324:5: note: template<class _RealType> bool std::operator!=(const std::lognormal_distribution<_RealType>&, const std::lognormal_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:2324:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::lognormal_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:2515:6: note: template<class _RealType> bool std::operator!=(const std::gamma_distribution<_RealType>&, const std::gamma_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:2515:6: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::gamma_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:2679:5: note: template<class _RealType> bool std::operator!=(const std::chi_squared_distribution<_RealType>&, const std::chi_squared_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:2679:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::chi_squared_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:2818:5: note: template<class _RealType> bool std::operator!=(const std::cauchy_distribution<_RealType>&, const std::cauchy_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:2818:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::cauchy_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:3033:5: note: template<class _RealType> bool std::operator!=(const std::fisher_f_distribution<_RealType>&, const std::fisher_f_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:3033:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::fisher_f_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:3206:5: note: template<class _RealType> bool std::operator!=(const std::student_t_distribution<_RealType>&, const std::student_t_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:3206:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::student_t_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:3354:3: note: bool std::operator!=(const std::bernoulli_distribution&, const std::bernoulli_distribution&)
+/usr/include/c++/4.7/bits/random.h:3354:3: note:   no known conversion for argument 1 from ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ to ‘const std::bernoulli_distribution&’
+/usr/include/c++/4.7/bits/random.h:3590:5: note: template<class _IntType> bool std::operator!=(const std::binomial_distribution<_IntType>&, const std::binomial_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:3590:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::binomial_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:3731:5: note: template<class _IntType> bool std::operator!=(const std::geometric_distribution<_IntType>&, const std::geometric_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:3731:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::geometric_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:3936:5: note: template<class _IntType> bool std::operator!=(const std::negative_binomial_distribution<_IntType>&, const std::negative_binomial_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:3936:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::negative_binomial_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:4123:5: note: template<class _IntType> bool std::operator!=(const std::poisson_distribution<_IntType>&, const std::poisson_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:4123:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::poisson_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:4273:5: note: template<class _RealType> bool std::operator!=(const std::exponential_distribution<_RealType>&, const std::exponential_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:4273:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::exponential_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:4448:5: note: template<class _RealType> bool std::operator!=(const std::weibull_distribution<_RealType>&, const std::weibull_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:4448:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::weibull_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:4623:5: note: template<class _RealType> bool std::operator!=(const std::extreme_value_distribution<_RealType>&, const std::extreme_value_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:4623:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::extreme_value_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:4855:5: note: template<class _IntType> bool std::operator!=(const std::discrete_distribution<_IntType>&, const std::discrete_distribution<_IntType>&)
+/usr/include/c++/4.7/bits/random.h:4855:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::discrete_distribution<_IntType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:5094:5: note: template<class _RealType> bool std::operator!=(const std::piecewise_constant_distribution<_RealType>&, const std::piecewise_constant_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:5094:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::piecewise_constant_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/random:50:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:67,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/random.h:5336:5: note: template<class _RealType> bool std::operator!=(const std::piecewise_linear_distribution<_RealType>&, const std::piecewise_linear_distribution<_RealType>&)
+/usr/include/c++/4.7/bits/random.h:5336:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::piecewise_linear_distribution<_RealType>’
+In file included from /usr/include/c++/4.7/functional:56:0,
+                 from /usr/include/c++/4.7/bits/stl_algo.h:68,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/tuple:819:5: note: template<class ... _TElements, class ... _UElements> bool std::operator!=(const std::tuple<_Args1 ...>&, const std::tuple<_Args2 ...>&)
+/usr/include/c++/4.7/tuple:819:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::tuple<_Args1 ...>’
+In file included from /usr/include/c++/4.7/bits/stl_algo.h:68:0,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/functional:2395:5: note: template<class _Res, class ... _Args> bool std::operator!=(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)
+/usr/include/c++/4.7/functional:2395:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::function<_Res(_ArgTypes ...)>’
+In file included from /usr/include/c++/4.7/bits/stl_algo.h:68:0,
+                 from /usr/include/c++/4.7/algorithm:63,
+                 from ../engine/uct.h:25,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/functional:2401:5: note: template<class _Res, class ... _Args> bool std::operator!=(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)
+/usr/include/c++/4.7/functional:2401:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   cannot convert ‘rgit’ (type ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’) to type ‘std::nullptr_t’
+In file included from /usr/include/c++/4.7/map:60:0,
+                 from ../engine/uct.h:32,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_tree.h:315:5: note: template<class _Val> bool std::operator!=(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+/usr/include/c++/4.7/bits/stl_tree.h:315:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::_Rb_tree_iterator<_Tp>’
+In file included from /usr/include/c++/4.7/map:60:0,
+                 from ../engine/uct.h:32,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_tree.h:883:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator!=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_tree.h:883:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>’
+In file included from /usr/include/c++/4.7/map:61:0,
+                 from ../engine/uct.h:32,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_map.h:913:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_map.h:913:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Alloc>’
+In file included from /usr/include/c++/4.7/map:62:0,
+                 from ../engine/uct.h:32,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/bits/stl_multimap.h:829:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.7/bits/stl_multimap.h:829:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Alloc>’
+In file included from ../engine/uct.h:33:0,
+                 from ../engine/dispatcher.h:30,
+                 from main.cc:5:
+/usr/include/c++/4.7/array:209:5: note: template<class _Tp, long unsigned int _Nm> bool std::operator!=(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+/usr/include/c++/4.7/array:209:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const std::array<_Tp, _Nm>’
+In file included from /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++allocator.h:34:0,
+                 from /usr/include/c++/4.7/bits/allocator.h:48,
+                 from /usr/include/c++/4.7/string:43,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/ext/new_allocator.h:134:5: note: template<class _Tp> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.7/ext/new_allocator.h:134:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const __gnu_cxx::new_allocator<_Tp>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:825:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:825:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from main.cc:1:
+/usr/include/c++/4.7/bits/stl_iterator.h:819:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:819:5: note:   template argument deduction/substitution failed:
+In file included from ../engine/dispatcher.h:30:0,
+                 from main.cc:5:
+../engine/uct.h:868:17: note:   ‘std::map<std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > >, std::less<std::pair<unsigned int, state_t> >, std::allocator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >::reverse_iterator {aka std::reverse_iterator<std::_Rb_tree_iterator<std::pair<const std::pair<unsigned int, state_t>, std::vector<std::pair<unsigned int, state_t>, std::allocator<std::pair<unsigned int, state_t> > > > > >}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+../engine/uct.h:822:25: warning: unused variable ‘abstractDepth’ [-Wunused-variable]
+../engine/uct.h:863:22: warning: unused variable ‘isNewNode’ [-Wunused-variable]
+../engine/uct.h: In instantiation of ‘T Online::Policy::UCT::uct_t<T>::get_equivalent_abstractState(const T&, unsigned int) const [with T = state_t]’:
+../engine/uct.h:865:17:   required from ‘void Online::Policy::UCT::uct_t<T>::construct_abstract_tree(const T&) const [with T = state_t]’
+../engine/uct.h:283:18:   required from ‘Problem::action_t Online::Policy::UCT::uct_t<T>::operator()(const T&) const [with T = state_t; Problem::action_t = int]’
+main.cc:201:1:   required from here
+../engine/uct.h:655:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1

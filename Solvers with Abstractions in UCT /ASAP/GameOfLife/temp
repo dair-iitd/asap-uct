@@ -1,0 +1,1128 @@
+seed1=0
+#trials=1:
+Start Time0.000000 0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(144 25 64 
+0 0 0 
+1 0 248 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(144 25 64 
+0 0 0 
+1 0 248 
+)0
+Depth1 state(1 0 0 
+0 1 0 
+0 1 0 
+)
+Depth1 state(0 1 0 
+0 1 0 
+0 1 0 
+)
+Depth1 state(0 0 1 
+0 1 0 
+0 1 0 
+)
+Depth0 state(0 0 0 
+1 0 0 
+0 1 1 
+)isUndersampledState(1 0 0 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 1 0 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 0 1 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 0 0 
+1 0 0 
+0 1 1 
+)0
+Depth1 state(1 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+1 0 0 
+)
+Depth0 state(0 0 0 
+0 1 0 
+0 1 0 
+)isUndersampledState(1 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+1 0 0 
+)1isUndersampledState(0 0 0 
+0 1 0 
+0 1 0 
+)0
+Depth1 state(1 0 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+0 1 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 1 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 1 1 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 1 1 
+0 0 1 
+)
+Depth0 state(0 0 1 
+0 0 1 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 1 1 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 1 1 
+0 0 1 
+)1isUndersampledState(0 0 1 
+0 0 1 
+0 1 0 
+)0
+Depth1 state(1 1 0 
+0 0 1 
+0 1 1 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 0 1 
+0 1 1 
+0 1 1 
+)
+Depth0 state(0 0 0 
+0 1 1 
+0 1 0 
+)isUndersampledState(1 1 0 
+0 0 1 
+0 1 1 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 1 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 0 
+0 1 1 
+0 1 0 
+)0
+Depth1 state(1 1 0 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 0 1 
+1 0 1 
+0 1 1 
+)
+Depth0 state(0 0 0 
+0 1 1 
+0 1 1 
+)isUndersampledState(1 1 0 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 1 
+1 0 1 
+0 1 1 
+)1isUndersampledState(0 0 0 
+0 1 1 
+0 1 1 
+)0
+Depth1 state(1 0 0 
+0 1 1 
+1 1 1 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 0 1 
+0 1 1 
+0 1 0 
+)
+Depth0 state(0 0 0 
+0 1 1 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 1 1 
+1 1 1 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 1 
+0 1 1 
+0 1 0 
+)1isUndersampledState(0 0 0 
+0 1 1 
+0 1 0 
+)0
+Depth1 state(1 0 1 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 1 1 
+)
+Depth1 state(0 0 1 
+0 1 1 
+0 1 1 
+)
+Depth0 state(0 0 0 
+0 1 1 
+0 0 1 
+)isUndersampledState(1 0 1 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 1 
+0 1 1 
+0 1 1 
+)1isUndersampledState(0 0 0 
+0 1 1 
+0 0 1 
+)0
+Depth2 state(1 1 0 
+1 0 0 
+1 1 0 
+)
+Depth1 state(1 1 1 
+1 0 0 
+0 1 1 
+)
+Depth1 state(0 1 1 
+1 0 0 
+0 1 1 
+)
+Depth0 state(0 1 0 
+0 1 1 
+0 1 1 
+)isUndersampledState(1 1 0 
+1 0 0 
+1 1 0 
+)2isUndersampledState(1 1 1 
+1 0 0 
+0 1 1 
+)1isUndersampledState(0 1 1 
+1 0 0 
+0 1 1 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 1 1 
+)0
+Depth2 state(1 1 0 
+1 0 1 
+0 0 0 
+)
+Depth1 state(1 1 0 
+1 0 0 
+0 1 0 
+)
+Depth1 state(0 1 1 
+1 0 0 
+0 1 0 
+)
+Depth0 state(0 1 1 
+1 0 0 
+0 1 1 
+)isUndersampledState(1 1 0 
+1 0 1 
+0 0 0 
+)2isUndersampledState(1 1 0 
+1 0 0 
+0 1 0 
+)1isUndersampledState(0 1 1 
+1 0 0 
+0 1 0 
+)1isUndersampledState(0 1 1 
+1 0 0 
+0 1 1 
+)0
+Depth1 state(1 0 0 
+1 1 0 
+0 1 0 
+)
+Depth1 state(0 1 0 
+1 1 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+0 0 0 
+)
+Depth0 state(0 1 0 
+1 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+1 1 0 
+0 1 0 
+)1isUndersampledState(0 1 0 
+1 1 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+1 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+1 1 1 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+1 1 0 
+)
+Depth0 state(0 0 0 
+1 1 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+1 1 1 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 1 1 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+1 1 0 
+)
+Depth0 state(0 0 0 
+1 1 0 
+1 1 0 
+)isUndersampledState(1 0 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 1 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 1 0 
+)0
+Depth1 state(1 0 0 
+1 0 0 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+1 1 0 
+)
+Depth0 state(0 0 0 
+1 1 0 
+1 1 0 
+)isUndersampledState(1 0 0 
+1 0 0 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 1 0 
+)0
+Depth1 state(1 0 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 0 
+1 1 0 
+0 1 1 
+)
+Depth0 state(0 0 0 
+1 1 0 
+1 0 0 
+)isUndersampledState(1 0 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+0 1 1 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 0 0 
+)0
+Depth1 state(0 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 0 0 
+1 1 0 
+)
+Depth1 state(0 0 0 
+1 1 0 
+1 0 0 
+)
+Depth0 state(0 0 0 
+1 1 0 
+1 1 0 
+)isUndersampledState(0 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 0 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 0 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 1 0 
+)0
+Depth1 state(1 0 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+1 1 0 
+)
+Depth0 state(0 0 0 
+1 1 0 
+1 1 0 
+)isUndersampledState(1 0 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 1 0 
+)0
+Depth1 state(1 0 1 
+1 0 0 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 0 0 
+1 0 0 
+)
+Depth1 state(0 0 1 
+1 0 0 
+1 1 0 
+)
+Depth0 state(0 0 1 
+1 0 0 
+1 1 0 
+)isUndersampledState(1 0 1 
+1 0 0 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 0 0 
+1 0 0 
+)1isUndersampledState(0 0 1 
+1 0 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 0 0 
+1 1 0 
+)0
+Depth1 state(1 0 1 
+1 0 0 
+1 0 0 
+)
+Depth1 state(1 0 0 
+1 0 0 
+1 1 0 
+)
+Depth1 state(0 1 0 
+1 0 0 
+1 1 0 
+)
+Depth0 state(1 0 0 
+1 0 0 
+1 1 0 
+)isUndersampledState(1 0 1 
+1 0 0 
+1 0 0 
+)1isUndersampledState(1 0 0 
+1 0 0 
+1 1 0 
+)1isUndersampledState(0 1 0 
+1 0 0 
+1 1 0 
+)1isUndersampledState(1 0 0 
+1 0 0 
+1 1 0 
+)0
+Depth1 state(1 1 0 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 1 
+1 1 0 
+1 1 0 
+)
+Depth1 state(0 0 0 
+1 1 0 
+1 1 0 
+)
+Depth0 state(0 0 0 
+1 0 0 
+1 1 0 
+)isUndersampledState(1 1 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 1 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 1 0 
+1 1 0 
+)1isUndersampledState(0 0 0 
+1 0 0 
+1 1 0 
+)0
+Depth1 state(1 1 1 
+0 1 0 
+1 1 0 
+)
+Depth1 state(1 1 1 
+0 0 1 
+0 1 0 
+)
+Depth1 state(1 1 0 
+0 0 0 
+1 1 0 
+)
+Depth0 state(1 0 0 
+1 1 0 
+1 1 0 
+)isUndersampledState(1 1 1 
+0 1 0 
+1 1 0 
+)1isUndersampledState(1 1 1 
+0 0 1 
+0 1 0 
+)1isUndersampledState(1 1 0 
+0 0 0 
+1 1 0 
+)1isUndersampledState(1 0 0 
+1 1 0 
+1 1 0 
+)0
+Depth1 state(0 1 0 
+0 0 1 
+0 1 0 
+)
+Depth1 state(0 0 1 
+0 0 1 
+0 1 0 
+)
+Depth1 state(0 0 0 
+0 0 1 
+0 1 0 
+)
+Depth0 state(1 1 0 
+0 0 0 
+1 1 1 
+)isUndersampledState(0 1 0 
+0 0 1 
+0 1 0 
+)1isUndersampledState(0 0 1 
+0 0 1 
+0 1 0 
+)1isUndersampledState(0 0 0 
+0 0 1 
+0 1 0 
+)1isUndersampledState(1 1 0 
+0 0 0 
+1 1 1 
+)0
+Depth1 state(1 0 0 
+0 1 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 1 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 1 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 1 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 1 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 1 
+0 1 0 
+)0
+Depth1 state(1 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 0 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 1 0 
+0 1 0 
+)isUndersampledState(1 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 1 0 
+0 1 0 
+)0
+Depth1 state(1 1 0 
+0 1 0 
+0 1 0 
+)
+Depth1 state(0 1 0 
+0 1 0 
+0 1 0 
+)
+Depth1 state(0 0 1 
+0 1 0 
+0 1 0 
+)
+Depth0 state(0 0 0 
+1 0 0 
+0 1 1 
+)isUndersampledState(1 1 0 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 1 0 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 0 1 
+0 1 0 
+0 1 0 
+)1isUndersampledState(0 0 0 
+1 0 0 
+0 1 1 
+)0
+Depth2 state(1 0 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 1 
+0 0 0 
+0 0 1 
+)
+Depth0 state(0 0 0 
+0 1 0 
+0 1 0 
+)isUndersampledState(1 0 1 
+0 0 0 
+0 0 0 
+)2isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 1 
+0 0 0 
+0 0 1 
+)1isUndersampledState(0 0 0 
+0 1 0 
+0 1 0 
+)0
+Depth1 state(1 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 1 0 
+0 1 0 
+)isUndersampledState(1 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 1 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(0 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 0 
+0 0 1 
+0 1 1 
+)
+Depth0 state(0 0 1 
+0 0 0 
+0 1 0 
+)isUndersampledState(0 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 1 
+0 1 1 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 1 
+1 0 1 
+0 0 0 
+)
+Depth1 state(0 1 1 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 1 
+1 0 1 
+0 0 0 
+)1isUndersampledState(0 1 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 1 0 
+)
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 1 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 1 0 
+)1isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 1 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 1 
+0 0 0 
+0 1 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 1 
+0 0 0 
+0 1 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 1 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+1 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 1 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+1 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 0 0 
+1 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 0 0 
+1 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 1 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 0 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 0 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 1 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 0 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 0 0 
+)
+Depth1 state(0 1 0 
+1 0 0 
+0 0 0 
+)
+Depth1 state(0 0 1 
+0 0 0 
+0 1 0 
+)
+Depth0 state(0 0 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 0 0 
+)1isUndersampledState(0 1 0 
+1 0 0 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 1 0 
+)1isUndersampledState(0 0 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 0 0 
+0 1 1 
+)
+Depth1 state(0 0 1 
+0 1 0 
+0 0 0 
+)
+Depth1 state(0 0 0 
+0 1 0 
+0 0 1 
+)
+Depth0 state(0 1 0 
+0 0 0 
+0 1 0 
+)isUndersampledState(1 0 0 
+0 0 0 
+0 1 1 
+)1isUndersampledState(0 0 1 
+0 1 0 
+0 0 0 
+)1isUndersampledState(0 0 0 
+0 1 0 
+0 0 1 
+)1isUndersampledState(0 1 0 
+0 0 0 
+0 1 0 
+)0
+Depth1 state(1 0 0 
+0 1 1 
+0 0 1 
+)
+Depth1 state(0 1 1 
+0 1 1 
+0 0 0 
+)
+Depth1 state(0 1 0 
+0 1 1 
+0 0 0 
+)
+Depth0 state(0 0 1 
+0 0 0 
+0 1 1 
+)isUndersampledState(1 0 0 
+0 1 1 
+0 0 1 
+)1isUndersampledState(0 1 1 
+0 1 1 
+0 0 0 
+)1isUndersampledState(0 1 0 
+0 1 1 
+0 0 0 
+)1isUndersampledState(0 0 1 
+0 0 0 
+0 1 1 
+)0(-109.00)[-nan]
+uct(random,width=2,depth=40,par=8)= -109.00000 -nan ( 0.01 secs 40 decisions)
+stats: policy=uct(width=2,horizon=40,par=8,random-ties=false)
+stats: decisions=40
+stats: policy=random()
+stats: decisions=12498
