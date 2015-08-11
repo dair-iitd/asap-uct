@@ -37,6 +37,8 @@ A Novel Abstraction Framework for Online Planning: Extended Abstract. AAMAS 2015
 
 
 .........................................................................................................
+
+
 The repository is organized in the following way: The base directory consists of follwign directories: 
 AS (Abstraction of States Framework)
 ASAM (Abstraction of States with Action Mapping Framework)
@@ -48,9 +50,12 @@ Each of these domains can be written separately and independently and "domain-na
 
 ..........................................................................................................
 
+
 Most of abstraction code is written in a single files with in engine:
 "uct.h" (Location : engine/uct.h)
 though some modifications are also made to policy.h to adapt to changes in abstractions.
 
+
 ........................................................................................................
+
 The base code is adapted from MDP Engine of Blai Bonet (http://code.google.com/p/mdp-engine/) . 
