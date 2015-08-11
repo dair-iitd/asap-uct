@@ -15,7 +15,7 @@ Compile and Run :
 
         l : number of times abstractions should be applied
         
-        w : plannign horizon
+        w : planning horizon
 
         time: total time of trial
         
