@@ -1,0 +1,63 @@
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-218.00)[-nan] 1(-164.50)[53.50] 2(-153.67)[38.60] 3(-128.00)[30.56] 4(-139.60)[30.49] 5(-134.83)[26.18] 6(-142.00)[22.37] 7(-148.50)[20.28] 8(-153.33)[18.72] 9(-157.00)[17.23]
+uct(random,width=1,depth=40,par=50)= -157.00000 17.61102 ( 0.37 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=50,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=757696
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-195.00)[-nan] 1(-192.00)[3.00] 2(-184.00)[6.04] 3(-188.25)[7.12] 4(-191.60)[6.44] 5(-188.83)[5.94] 6(-194.86)[5.99] 7(-198.38)[7.40] 8(-197.11)[7.18] 9(-191.90)[6.71]
+uct(random,width=1,depth=40,par=100)= -191.89999 8.49757 ( 0.77 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=100,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=1497397
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-188.00)[-nan] 1(-200.00)[12.00] 2(-209.33)[10.75] 3(-210.00)[9.50] 4(-212.80)[7.28] 5(-214.00)[6.26] 6(-214.29)[5.31] 7(-198.75)[7.44] 8(-184.33)[15.91] 9(-177.30)[19.23]
+uct(random,width=1,depth=40,par=150)= -177.30000 20.47344 ( 1.23 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=150,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=2221648
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-219.00)[-nan] 1(-223.00)[4.00] 2(-219.00)[4.00] 3(-218.00)[3.82] 4(-216.60)[3.04] 5(-215.83)[2.70] 6(-207.00)[4.30] 7(-192.00)[10.15] 8(-194.22)[15.87] 9(-190.50)[14.30]
+uct(random,width=1,depth=40,par=200)= -190.50000 14.77256 ( 1.67 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=200,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=2946343
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-218.00)[-nan] 1(-193.00)[25.00] 2(-199.33)[18.24] 3(-205.75)[13.39] 4(-208.20)[11.20] 5(-210.50)[9.23] 6(-209.86)[7.93] 7(-211.88)[6.87] 8(-203.33)[6.95] 9(-205.20)[9.81]
+uct(random,width=1,depth=40,par=250)= -205.20000 9.98493 ( 2.17 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=250,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=3670777
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-203.00)[-nan] 1(-203.00)[0.00] 2(-207.33)[3.06] 3(-214.00)[5.23] 4(-217.80)[6.63] 5(-218.50)[6.12] 6(-219.43)[5.15] 7(-219.62)[4.49] 8(-221.56)[3.99] 9(-222.90)[3.96]
+uct(random,width=1,depth=40,par=300)= -222.89999 4.18537 ( 2.74 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=300,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=4386541
+seed1=0
+reached here
+#trials=10:
+Start Time0.000000 0(-179.00)[-nan] 1(-205.00)[26.00] 2(-205.33)[18.39] 3(-203.00)[12.33] 4(-203.80)[9.42] 5(-205.33)[7.60] 6(-208.14)[6.56] 7(-210.62)[6.19] 8(-212.22)[5.86] 9(-199.60)[6.85]
+uct(random,width=1,depth=40,par=350)= -199.60001 14.35889 ( 3.34 secs 400 decisions)
+stats: policy=uct(width=1,horizon=40,par=350,random-ties=false)
+stats: decisions=400
+stats: policy=random()
+stats: decisions=5082379
